@@ -19,6 +19,7 @@
 
             <Button
                 android:layout_width="210dp"
+                android:background="#ffffff"
                 android:layout_height="wrap_content"
                 android:text="The living organization"
                 android:id="@+id/btnLivOrg"
@@ -49,7 +50,6 @@
                 android:text="Authentic Leading"
                 android:id="@+id/button3"
                 android:layout_gravity="center_horizontal"
-                android:clickable="false"
                 android:layout_above="@+id/button2"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
