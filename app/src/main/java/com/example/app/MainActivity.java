@@ -172,7 +172,7 @@ public class MainActivity extends ActionBarActivity {
         }
     public void startCourse1 (View view1) {
 
-        startActivity(new Intent(this, courseInformation.class));
+        startActivity(new Intent(this, Informations.class));
 
 
     }
