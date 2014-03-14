@@ -19,7 +19,6 @@
 
             <Button
                 android:layout_width="210dp"
-                android:background="#ffffff"
                 android:layout_height="wrap_content"
                 android:text="The living organization"
                 android:id="@+id/btnLivOrg"
