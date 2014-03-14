@@ -9,37 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
 
 
-    tools:context="androicom.example.app.MainActivity$PlaceholderFragment"
+    tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:background="@drawable/selector">
 
 
-    <!--<Button-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="More information"-->
-        <!--android:id="@+id/btnMoreInformation"-->
-        <!--android:layout_marginBottom="144dp"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_alignParentLeft="true"-->
-        <!--android:layout_alignParentStart="true" />-->
-
-    <!--<Button-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Share"-->
-        <!--android:id="@+id/btnStartPlus"-->
-        <!--android:layout_alignTop="@+id/btnMoreInformation"-->
-        <!--android:layout_toRightOf="@+id/btnMoreInformation" />-->
-
-    <!--<Button-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Favorite"-->
-        <!--android:id="@+id/btnAutheLeading"-->
-        <!--android:layout_alignTop="@+id/btnStartPlus"-->
-        <!--android:layout_alignParentRight="true"-->
-        <!--android:layout_alignParentEnd="true"-->
-        <!--android:layout_toRightOf="@+id/btnStartPlus" />-->
 
 
     <VideoView
@@ -52,15 +25,7 @@
         android:layout_marginRight="150dp"
         android:layout_marginBottom="250dp" />
 
-    <!--<ExpandableListViewListView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:id="@+id/listView"-->
-        <!--android:layout_alignTop="@+id/videoView"-->
-        <!--android:layout_alignParentLeft="true"-->
-        <!--android:layout_alignParentStart="true"-->
-        <!--android:layout_marginLeft="221dp"-->
-        <!--android:layout_alignBottom="@+id/videoView" />-->
+
 
     <TextView
         android:layout_width="wrap_content"
