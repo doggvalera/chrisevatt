@@ -1,0 +1,74 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+
+    tools:context="androicom.example.app.MainActivity$PlaceholderFragment"
+    android:background="@drawable/selector">
+
+
+
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoView"
+        android:background="@drawable/selector"
+        android:layout_above="@+id/btnMoreInformation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:enabled="true"
+        android:layout_below="@+id/btnStartPlus"
+        android:layout_alignRight="@+id/btnAutheLeading"
+        android:layout_alignEnd="@+id/btnAutheLeading">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Have you ever wondered about the self-talk that goes on inside your head? One of those voices inside says “yes I can do it. I feel great.” The other voice says “no I can’t. I’m not good enough. I feel bad.”  Two voices from seemingly two different people, are you. Which one do you want to choose, the “yes I can” or the “no I cant”? Your answer will dictate the kind of person you wish to be and the kind of life you wish to experience.   Whatever your choice it is one of the most important choices you will ever make. Your life will depend on it. The “yes I can” will take you forward, lift you up and bring out your finest qualities to positively impact your life and the world around you. The “no I can’t” will do the reverse. "
+            android:id="@+id/textView"
+
+           />
+
+    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More information"
+        android:id="@+id/btnMoreInformation"
+        android:layout_marginBottom="144dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/btnStartPlus"
+        android:layout_alignTop="@+id/btnMoreInformation"
+        android:layout_toRightOf="@+id/btnMoreInformation" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite"
+        android:id="@+id/btnAutheLeading"
+        android:layout_alignTop="@+id/btnStartPlus"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/btnStartPlus" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/selector"
+
+
+    >
+
+
+    <TextView
+
+        android:id="@+id/aboutSmallTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacus nulla, malesuada ac dictum congue, dictum at magna. Fusce eu ornare metus.Nam laoreet nisl ut tortor dapibus "
+        android:textColor="#ffffff"
+        android:paddingTop="30dp"
+        android:layout_toRightOf="@+id/aboutimageView"
+        android:layout_alignBottom="@+id/aboutimageView" />
+
+    <ImageView
+        android:layout_weight="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aboutimageView"
+        android:src="@drawable/evatt_about_final1"
+        android:onClick="setListFooter"
+        android:padding="5dp"
+
+        android:layout_below="@+id/aboutHeader"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About Christopher Evatt"
+        android:id="@+id/aboutHeader"
+        android:gravity="center"
+        android:textColor="#ffd91548"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/section_label"
+        android:layout_alignEnd="@+id/section_label"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Are you ready to make your dreams reality?"
+        android:textColor="#ffd91548"
+        android:id="@+id/aboutSlogan"
+        android:layout_below="@+id/aboutimageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:textStyle="bold|italic"
+        android:paddingBottom="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacus nulla, malesuada ac dictum congue, dictum at magna. Fusce eu ornare metus. Nam laoreet nisl ut tortor dapibus eleifend. Nunc scelerisque quam in erat pellentesque, ut iaculis ligula lobortis. Suspendisse eu sodales purus, vitae egestas elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. "
+        android:id="@+id/aboutBigTextView"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/section_label"
+        android:layout_alignEnd="@+id/section_label"
+        android:layout_below="@+id/aboutSlogan"
+        />
+
+
+</RelativeLayout>

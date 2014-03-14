@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:layout_gravity="center"
+    android:background="@drawable/selector">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal|top"
+
+            android:src="@drawable/chrislogo5" />
+
+
+            <Button
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="The living organization"
+                android:id="@+id/btnLivOrg"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:onClick="startCourse1"/>
+
+            <Button
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="StartupPLUS"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal"
+                android:layout_above="@+id/button4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="Authentic Leading"
+                android:id="@+id/button3"
+                android:layout_gravity="center_horizontal"
+                android:clickable="false"
+                android:layout_above="@+id/button2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="Family Businesses Succession"
+                android:id="@+id/button4"
+                android:layout_gravity="center_horizontal"
+                android:layout_above="@+id/btnLivOrg"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available courses:"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:clickable="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
