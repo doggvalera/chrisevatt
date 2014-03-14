@@ -17,21 +17,21 @@
             android:text='"Are You Ready To Make Your Dreams Come True?"'
             android:id="@+id/textView"
             android:textSize="17sp"
-            android:textColor="#ffd91548"
+            android:textColor="#ffffffff"
             android:textStyle="bold|italic"
             android:clickable="false"
 
-            android:layout_centerVertical="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="74dp" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:id="@+id/imageView"
+            android:src="@drawable/chris_small"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:src="@drawable/evatt_about_final1" />
+            android:layout_alignParentEnd="true" />
     </RelativeLayout>
 </LinearLayout>
