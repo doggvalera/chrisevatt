@@ -14,16 +14,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text='"Are You Ready To Make Your Dreams Come True?"'
+            android:text='"Are You Ready \n \t To Make Your Dreams \n \t \t Come True?"'
             android:id="@+id/textView"
             android:textSize="17sp"
+            android:paddingLeft="30dp"
             android:textColor="#ffffffff"
             android:textStyle="bold|italic"
             android:clickable="false"
 
+            android:layout_marginTop="111dp"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="74dp" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
 
         <ImageView
             android:layout_width="fill_parent"
