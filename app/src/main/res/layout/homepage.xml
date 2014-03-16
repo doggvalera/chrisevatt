@@ -7,7 +7,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/selector"
+        android:background="#130042"
         >
 
         <TextView
@@ -17,15 +17,16 @@
             android:text='"Are You Ready \n \t To Make Your Dreams \n \t \t Come Reality?"'
             android:id="@+id/textView"
             android:textSize="17sp"
-            android:paddingLeft="30dp"
+            android:paddingLeft="3dp"
             android:textColor="#ffffffff"
             android:textStyle="bold|italic"
             android:clickable="false"
 
-            android:layout_marginTop="111dp"
+            android:layout_marginTop="51dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="35dp" />
 
 
         <ImageView
@@ -36,5 +37,39 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A \nB \nO \nU \nT "
+            android:id="@+id/textView2"
+
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="13sp"
+            android:paddingLeft="3dp"
+            android:textColor="#ffffffff"
+            android:textStyle="bold|italic"
+            android:clickable="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A\nV\nA\nI\nL\nA\nB\nL\nE\n \n\nC\nO\nU\nR\nS\nE\nS"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:textSize="13sp"
+            android:paddingLeft="3dp"
+            android:textColor="#ffffffff"
+            android:textStyle="bold|italic"
+            android:clickable="false"
+            android:gravity="center"/>
+        />
     </RelativeLayout>
 </LinearLayout>

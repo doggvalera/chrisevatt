@@ -24,7 +24,7 @@ android:background="@drawable/selector"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/aboutimageView"
-        android:src="@drawable/evatt_about_final1"
+        android:src="@drawable/chris_small"
         android:onClick="setListFooter"
         android:padding="5dp"
 
