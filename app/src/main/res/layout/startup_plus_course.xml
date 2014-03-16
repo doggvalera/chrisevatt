@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+
+    tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
+    android:background="@drawable/selector">
+
+
+
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoStartPlus"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="250dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text1"
+        android:id="@+id/textStartPlus"
+        android:layout_below="@+id/expandableStartPlus"
+        android:layout_alignRight="@+id/expandableStartPlus"
+        android:layout_alignEnd="@+id/expandableStartPlus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More information"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textStartPlus"
+        android:layout_alignEnd="@+id/textStartPlus" />
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandableStartPlus"
+        android:layout_alignTop="@+id/videoStartPlus"
+        android:layout_toRightOf="@+id/button"
+        android:layout_marginLeft="58dp"
+        android:layout_alignBottom="@+id/videoStartPlus" />
+
+</RelativeLayout>
