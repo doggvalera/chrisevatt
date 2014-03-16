@@ -1,12 +1,14 @@
 package com.example.app;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,7 +21,9 @@ public class ExpListAdapter extends BaseExpandableListAdapter {
 
     private ArrayList<ArrayList<String>> mGroups;
     private Context mContext;
+//final Dialog dialog = new Dialog();
 
+    private String name = "Training modules:";
     public ExpListAdapter (Context context,ArrayList<ArrayList<String>> groups){
         mContext = context;
         mGroups = groups;
@@ -77,8 +81,8 @@ public class ExpListAdapter extends BaseExpandableListAdapter {
         }
 
         TextView textGroup = (TextView) convertView.findViewById(R.id.textGroup);
-        textGroup.setText("Group " + Integer.toString(groupPosition));
-
+        textGroup.setText(name );
+      //  + Integer.toString(groupPosition)
         return convertView;
 
     }
@@ -98,7 +102,14 @@ public class ExpListAdapter extends BaseExpandableListAdapter {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(mContext, "button is pressed", 5000).show();
+//                dialog.setContentView(R.layout.custom_dialog);
+//                dialog.setTitle("Custom Alert Dialog");
+//
+//                final EditText editText=(EditText)dialog.findViewById(R.id.editText);
+//                Button save=(Button)dialog.findViewById(R.id.save);
+//                Button btnCancel=(Button)dialog.findViewById(R.id.cancel);
+//                dialog.show();
+//                Toast.makeText(mContext, "button is pressed", 5000).show();
             }
         });
 

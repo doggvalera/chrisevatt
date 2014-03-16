@@ -180,6 +180,18 @@ public class MainActivity extends ActionBarActivity {
 
 
     }
+    public void startCourse2 (View view2) {
+
+        startActivity(new Intent(this, FamilyCourseClass.class));
+
+
+    }
+    public void startCourse3 (View view3) {
+
+        startActivity(new Intent(this, StartPlus.class));
+
+
+    }
 
 
     }
