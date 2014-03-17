@@ -28,6 +28,7 @@
         <activity android:name="Informations"/>
         <activity android:name=".FamilyCourseClass"/>
         <activity android:name=".StartPlus"/>
+        <activity android:name=".AuthenicLeadingCourse"/>
 
     </application>
 
