@@ -28,7 +28,7 @@ public class StartPlus extends Activity
     String name9 = "9.Developing a living organisation model";
 
 
-    String moreInf  = "http://www.chrisevatt.com/";
+    String moreInf2  = "http://www.chrisevatt.com/services/startupplus/";
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.startup_plus_course);
@@ -58,15 +58,15 @@ public class StartPlus extends Activity
         ExpListAdapter adapter = new ExpListAdapter(getApplicationContext(), groups);
         listView.setAdapter(adapter);
 
-        Button btnMoreInf = (Button) findViewById(R.id.button);
+        Button btnMoreInf2 = (Button) findViewById(R.id.startupMoreInfo);
 
 
-        btnMoreInf.setOnClickListener(new View.OnClickListener() {
+        btnMoreInf2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 //
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf2));
                 startActivity(browserIntent);
 //
             }

@@ -192,9 +192,14 @@ public class MainActivity extends ActionBarActivity {
 
 
     }
+    public void startCourse4 (View view4) {
+
+        startActivity(new Intent(this, Authetic_Leading_course.class));
 
 
     }
+
+}
 
 
 

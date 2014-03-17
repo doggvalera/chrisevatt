@@ -27,7 +27,7 @@ public class FamilyCourseClass extends Activity {
     String name9 = "9.Developing a living organisation model";
 
 
-    String moreInf  = "http://www.chrisevatt.com/";
+    String moreInf3  = "http://www.chrisevatt.com/services/family-businesses-succession";
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.family_business_course);
@@ -57,15 +57,15 @@ public class FamilyCourseClass extends Activity {
         ExpListAdapter adapter = new ExpListAdapter(getApplicationContext(), groups);
         listView.setAdapter(adapter);
 
-        Button btnMoreInf = (Button) findViewById(R.id.button);
+        Button btnMoreInf3 = (Button) findViewById(R.id.startupFamily);
 
 
-        btnMoreInf.setOnClickListener(new View.OnClickListener() {
+        btnMoreInf3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 //
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf3));
                 startActivity(browserIntent);
 //
             }
