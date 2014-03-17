@@ -27,7 +27,7 @@ public class AuthenicLeadingCourse extends Activity {
     String name9 = "9.Developing a living organisation model";
 
 
-    String moreInf  = "http://www.chrisevatt.com/";
+    String moreInf4  = "http://www.chrisevatt.com/services/authentic-leading";
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.authentic_leading_course);
@@ -57,15 +57,15 @@ public class AuthenicLeadingCourse extends Activity {
         ExpListAdapter adapter = new ExpListAdapter(getApplicationContext(), groups);
         listView.setAdapter(adapter);
 
-        Button btnMoreInf = (Button) findViewById(R.id.button);
+        Button btnMoreInf4 = (Button) findViewById(R.id.autLeadingMore);
 
 
-        btnMoreInf.setOnClickListener(new View.OnClickListener() {
+        btnMoreInf4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 //
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf4));
                 startActivity(browserIntent);
 //
             }
