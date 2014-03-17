@@ -156,15 +156,15 @@ public class MainActivity extends ActionBarActivity {
                                                   Bundle savedInstanceState) {
             View rootView;
             if (getArguments().getInt(ARG_SECTION_NUMBER)==1)
-                rootView = inflater.inflate(R.layout.mainpage, container, false);
-
-            else if (getArguments().getInt(ARG_SECTION_NUMBER) ==2)
                 rootView = inflater.inflate(R.layout.homepage, container, false);
+
+
+             else if (getArguments().getInt(ARG_SECTION_NUMBER)==2)
+                 rootView = inflater.inflate(R.layout.mainpage, container, false);
 
              else
 
                 rootView = inflater.inflate(R.layout.about, container, false);
-
 
 
              return rootView;
