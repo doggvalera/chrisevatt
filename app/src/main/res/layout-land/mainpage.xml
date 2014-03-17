@@ -15,7 +15,7 @@
             android:id="@+id/imageView"
             android:layout_gravity="center_horizontal|top"
 
-            android:src="@drawable/chrislogo5" />
+            android:src="@drawable/rsz_icon_full_mono_v2_231" />
 
 
             <Button
@@ -34,7 +34,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
-                android:background="#0197af"
+                android:background="#ff0460af"
                 android:onClick="startCourse1"/>
 
             <Button
@@ -48,7 +48,7 @@
                 android:textColor="#ffffff"
                 android:id="@+id/button2"
                 android:drawableLeft="@drawable/course_startup_50px"
-                android:background="#0197af"
+                android:background="#ff0460af"
                 android:layout_gravity="center_horizontal"
                 android:layout_above="@+id/button4"
                 android:layout_alignParentLeft="true"
@@ -67,7 +67,7 @@
                 android:text="Authentic Leading"
                 android:textColor="#ffffff"
                 android:id="@+id/button3"
-                android:background="#0197af"
+                android:background="#ff0460af"
                 android:layout_gravity="center_horizontal"
                 android:clickable="true"
                 android:layout_above="@+id/button2"
@@ -89,7 +89,7 @@
                 android:text="Family Businesses Succession"
                 android:textColor="#ffffff"
                 android:id="@+id/button4"
-                android:background="#0197af"
+                android:background="#ff0460af"
                 android:drawableLeft="@drawable/course_familybs_50px"
                 android:layout_gravity="center_horizontal"
                 android:layout_above="@+id/btnLivOrg"
@@ -111,6 +111,34 @@
         android:layout_above="@+id/button3"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:drawableRight="@drawable/arrow_r"
+        android:textColor="#ffffff"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" About "
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:drawableLeft="@drawable/arrow_l"
+        android:textColor="#ffffff"
+        android:background="@android:color/transparent"
+
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Help  "
+        android:id="@+id/button5"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
 

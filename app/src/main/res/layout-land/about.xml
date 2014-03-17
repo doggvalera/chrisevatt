@@ -2,7 +2,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-android:background="#34cbdc"
+android:background="#ff2da5d7"
 
 
     >
@@ -20,7 +20,8 @@ android:background="#34cbdc"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/aboutHeader" />
 
     <ImageView
 
@@ -28,8 +29,8 @@ android:background="#34cbdc"
         android:layout_height="wrap_content"
         android:id="@+id/aboutimageView"
         android:src="@drawable/chris_small"
-        android:onClick="setListFooter"
-        android:padding="5dp"
+
+
 
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
