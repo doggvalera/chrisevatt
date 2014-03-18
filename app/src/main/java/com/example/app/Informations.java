@@ -23,6 +23,7 @@ public class Informations extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.informationtext);
 
+
       //  final String vasa="1";
         ExpandableListView listView = (ExpandableListView)findViewById(R.id.expandableListView);
 
@@ -30,6 +31,7 @@ public class Informations extends Activity {
        // ArrayList<String> children1 = new ArrayList<String>();
         ArrayList<String> children2 = new ArrayList<String>();
         //children1.add("Training modules:");
+
 //        children1.add("Child_2");
        // groups.add(children1);
         children2.add(getString(R.string.familyCousesesPoint1));
@@ -57,20 +59,20 @@ public class Informations extends Activity {
 
                 NewInforForPoints newInforForPoints = new NewInforForPoints();
                 Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
-//                i.putExtra("NameOfPage",numberpage);
                 i.putExtra("NameOfPage" ,numberpage);
 
                 startActivity(i);
-
-//                NewInforForPoints newInforForPoints = new NewInforForPoints("name");
-//            new NewInforForPoints("vasa");
-//                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf1));
-//                startActivity(browserIntent);
-//
             }
 
 
         });
+
+    }
+
+    public void startModule1 (View view5) {
+
+        startActivity(new Intent(this, LivingOrg.class));
+
 
     }
 

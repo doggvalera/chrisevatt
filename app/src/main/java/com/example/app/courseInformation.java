@@ -2,6 +2,7 @@ package com.example.app;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 
 /**
  * Created by Laisu on 14.3.2014.
@@ -15,4 +16,5 @@ public class courseInformation extends Activity {
         setContentView(R.layout.informationtext);
 
     }
+
 }

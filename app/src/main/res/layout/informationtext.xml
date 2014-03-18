@@ -1,5 +1,3 @@
-
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,15 +7,6 @@
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:background="#ff2da5d7">
-
-
-
-
-
-
-
-
-
 
     <Button
         android:layout_marginTop="2dp"
@@ -63,6 +52,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick=""/>
+        android:onClick="startModule1"/>
 
 </RelativeLayout>
