@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ExpandableListView;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 /**
  * Created by valerijszemlanikins on 17.03.14.
@@ -27,7 +28,7 @@ public class AuthenicLeadingCourse extends Activity {
     String name9 = "9.Developing a living organisation model";
 
 
-    String moreInf4  = "http://www.chrisevatt.com/services/authentic-leading";
+    String moreInf  = "http://www.chrisevatt.com/";
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.authentic_leading_course);
@@ -41,13 +42,14 @@ public class AuthenicLeadingCourse extends Activity {
         //children1.add("Training modules:");
 //        children1.add("Child_2");
         // groups.add(children1);
-        children2.add(name1);
-        children2.add(name2);
-        children2.add(name3);
-        children2.add(name4);
-        children2.add(name5);
-        children2.add(name6);
-        children2.add(name7);
+        //if (lang=="eng"){
+        children2.add(getString(R.string.authenicLeadingCourse1));
+        children2.add(getString(R.string.authenicLeadingCourse2));
+        children2.add(getString(R.string.authenicLeadingCourse3));
+        children2.add(getString(R.string.authenicLeadingCourse4));
+        children2.add(getString(R.string.authenicLeadingCourse5));
+        children2.add(getString(R.string.authenicLeadingCourse6));
+        children2.add(getString(R.string.authenicLeadingCourse7));
 //        children2.add(name);
 
 //        children2.add("Child_2");
@@ -65,8 +67,8 @@ public class AuthenicLeadingCourse extends Activity {
             public void onClick(View view) {
 //
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf4));
-                startActivity(browserIntent);
+//                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf4));
+//                startActivity(browserIntent);
 //
             }
 

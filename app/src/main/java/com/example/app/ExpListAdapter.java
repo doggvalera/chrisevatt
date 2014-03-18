@@ -19,9 +19,14 @@ import java.util.ArrayList;
  */
 public class ExpListAdapter extends BaseExpandableListAdapter {
 
+//    public ExpListAdapter(Activity view1){
+//        final Dialog dialog = new Dialog(view1);
+//
+//    }
+//
+
     private ArrayList<ArrayList<String>> mGroups;
     private Context mContext;
-//final Dialog dialog = new Dialog();
 
     private String name = "Training modules:";
     public ExpListAdapter (Context context,ArrayList<ArrayList<String>> groups){
@@ -100,8 +105,10 @@ public class ExpListAdapter extends BaseExpandableListAdapter {
 
         Button button = (Button)convertView.findViewById(R.id.buttonChild);
         button.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
+
 //                dialog.setContentView(R.layout.custom_dialog);
 //                dialog.setTitle("Custom Alert Dialog");
 //
@@ -120,5 +127,6 @@ public class ExpListAdapter extends BaseExpandableListAdapter {
     public boolean isChildSelectable(int groupPosition, int childPosition) {
         return true;
     }
-}
+    }
+
 

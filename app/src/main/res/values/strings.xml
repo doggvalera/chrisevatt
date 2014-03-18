@@ -6,6 +6,47 @@
     <string name="action_settings">Settings</string>
 
 
-    <!--Add string in -->
+
+
+    <!--Add string in FamilyCourses Class -->
+
+
+
+    <string name= "familyCousesesPoint1">1.Developing a living organisation model</string>
+    <string name= "familyCousesesPoint2">2.Developing collaborative relationships with all stakeholders</string>
+    <string name= "familyCousesesPoint3">3.Collaborative relationship skills:</string>
+    <string name= "familyCousesesPoint4">4.Creating a collaborative and empowering culture:</string>
+    <string name= "familyCousesesPoint5">5.Leading the living organisation</string>
+    <string name= "familyCousesesPoint6">6.Managing the living organisation</string>
+    <string name= "familyCousesesPoint7">7.Measures:</string>
+
+    <!--Add string in AuthenicLeadingCourse Class -->
+    AuthenicLeadingCourse
+
+
+    <string name= "authenicLeadingCourse1">1.authenicLeadingCourse1</string>
+    <string name= "authenicLeadingCourse2">2.authenicLeadingCourse2</string>
+    <string name= "authenicLeadingCourse3">3.authenicLeadingCourse3</string>
+    <string name= "authenicLeadingCourse4">4.authenicLeadingCourse4</string>
+    <string name= "authenicLeadingCourse5">5.authenicLeadingCourse5</string>
+    <string name= "authenicLeadingCourse6">6.authenicLeadingCourse6</string>
+    <string name= "authenicLeadingCourse7">7.authenicLeadingCourse7</string>
+
+
+    <string name= "authenicLeadingCourse1r">1.ываыва</string>
+    <string name= "authenicLeadingCourse2r">2.что то еще </string>
+    <string name= "authenicLeadingCourse3r">3.блин </string>
+    <string name= "authenicLeadingCourse4r">4.ываыв </string>
+    <string name= "authenicLeadingCourse5r">5.ыва</string>
+    <string name= "authenicLeadingCourse6r">6.ыва</string>
+    <string name= "authenicLeadingCourse7r">7.ываываыва ыва </string>
+
+    <!--Add string in StartPlus Class -->
+
+
+    <!--Add string in Informations -->
+
+
+
 
 </resources>

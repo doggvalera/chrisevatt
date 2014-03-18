@@ -29,7 +29,7 @@
         <activity android:name=".FamilyCourseClass"/>
         <activity android:name=".StartPlus"/>
         <activity android:name=".AuthenicLeadingCourse"/>
-
+        <activity android:name=".NewInforForPoints"/>
     </application>
 
 </manifest>

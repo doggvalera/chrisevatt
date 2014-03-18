@@ -2,39 +2,28 @@ package com.example.app;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ExpandableListView;
 
 import java.util.ArrayList;
+import java.util.EventListener;
 
 /**
  * Created by valerijszemlanikins on 13.03.14.
  */
 public class Informations extends Activity {
 
-    String name1 = "1.Developing a living organisation model";
-    String name2 = "2.Developing collaborative relationships with all stakeholders";
-    String name3 = "3.Collaborative relationship skills:";
-    String name4 = "4.Creating a collaborative and empowering culture:";
-    String name5 = "5.Leading the living organisation";
-    String name6 = "6.Managing the living organisation";
-    String name7 = "7.Measures:";
-    String name8 = "8.Developing a living organisation model";
-    String name9 = "9.Developing a living organisation model";
-
-
+    int numberpage = 1;
     String moreInf1  = "http://www.chrisevatt.com/services/the-living-organisation";
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.informationtext);
 
-
+      //  final String vasa="1";
         ExpandableListView listView = (ExpandableListView)findViewById(R.id.expandableListView);
 
         ArrayList<ArrayList<String>> groups = new ArrayList<ArrayList<String>>();
@@ -43,13 +32,13 @@ public class Informations extends Activity {
         //children1.add("Training modules:");
 //        children1.add("Child_2");
        // groups.add(children1);
-        children2.add(name1);
-        children2.add(name2);
-        children2.add(name3);
-        children2.add(name4);
-        children2.add(name5);
-        children2.add(name6);
-        children2.add(name7);
+        children2.add(getString(R.string.familyCousesesPoint1));
+        children2.add(getString(R.string.familyCousesesPoint2));
+        children2.add(getString(R.string.familyCousesesPoint3));
+        children2.add(getString(R.string.familyCousesesPoint4));
+        children2.add(getString(R.string.familyCousesesPoint5));
+        children2.add(getString(R.string.familyCousesesPoint6));
+        children2.add(getString(R.string.familyCousesesPoint7));
 //        children2.add(name);
 
 //        children2.add("Child_2");
@@ -65,10 +54,18 @@ public class Informations extends Activity {
         btnMoreInf1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf1));
-                startActivity(browserIntent);
+                NewInforForPoints newInforForPoints = new NewInforForPoints();
+                Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
+//                i.putExtra("NameOfPage",numberpage);
+                i.putExtra("NameOfPage" ,numberpage);
+
+                startActivity(i);
+
+//                NewInforForPoints newInforForPoints = new NewInforForPoints("name");
+//            new NewInforForPoints("vasa");
+//                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf1));
+//                startActivity(browserIntent);
 //
             }
 
