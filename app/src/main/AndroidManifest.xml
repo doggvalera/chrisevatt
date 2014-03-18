@@ -30,7 +30,7 @@
         <activity android:name=".StartPlus"/>
         <activity android:name=".AuthenicLeadingCourse"/>
         <activity android:name=".NewInforForPoints"/>
-        <activity android:name=".living_organizon_info"/>
+        <activity android:name=".LivingOrg"/>
     </application>
 
 </manifest>

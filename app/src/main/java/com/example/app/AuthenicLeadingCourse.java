@@ -26,7 +26,7 @@ public class AuthenicLeadingCourse extends Activity {
     String name7 = "7.Measures:";
     String name8 = "8.Developing a living organisation model";
     String name9 = "9.Developing a living organisation model";
-    String moreInf  = "http://www.chrisevatt.com/";
+    String moreInf  = "http://www.chrisevatt.com/services/authentic-leading";
 
 
 
@@ -66,15 +66,16 @@ public class AuthenicLeadingCourse extends Activity {
         btnMoreInf4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//
 
-//                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf4));
-//                startActivity(browserIntent);
-//
+
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf));
+               startActivity(browserIntent);
+
             }
 
 
-        });
+            });
+
 
     }
 }
