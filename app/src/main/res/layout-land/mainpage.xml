@@ -34,7 +34,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
-                android:background="#ff06acaf"
+                android:background="#ff008daf"
                 android:onClick="startCourse1"/>
 
             <Button
@@ -48,7 +48,7 @@
                 android:textColor="#ffffff"
                 android:id="@+id/button2"
                 android:drawableLeft="@drawable/course_startup_50px"
-                android:background="#06ACAF"
+                android:background="#ff008daf"
                 android:layout_gravity="center_horizontal"
                 android:layout_above="@+id/button4"
                 android:layout_alignParentLeft="true"
@@ -67,7 +67,7 @@
                 android:text="Authentic Leading"
                 android:textColor="#ffffff"
                 android:id="@+id/button3"
-                android:background="#ff06acaf"
+                android:background="#ff008daf"
                 android:layout_gravity="center_horizontal"
                 android:clickable="true"
                 android:layout_above="@+id/button2"
@@ -89,7 +89,7 @@
                 android:text="Family Businesses Succession"
                 android:textColor="#ffffff"
                 android:id="@+id/button4"
-                android:background="#ff06acaf"
+                android:background="#ff008daf"
                 android:drawableLeft="@drawable/course_familybs_50px"
                 android:layout_gravity="center_horizontal"
                 android:layout_above="@+id/btnLivOrg"
