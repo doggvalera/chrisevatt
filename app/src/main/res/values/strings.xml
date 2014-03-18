@@ -68,12 +68,12 @@
 
 
     <!--String for first page-->
-    <string name= "thelivingorg">a.	 What is an organisation model.
-b.	 Establishing the vision, purpose, ethics and philosophy of the living organisation.
-c.	 Identifying the stakeholders that will support the living organisation
-d.	 Finding out how the living organisation can best support each stakeholder and how each stakeholder can best serve the needs of the living organisation.
-e.	 Defining the nature of the relationships between the stakeholders and the relationships between the stakeholders and the living organisation.
-f.	Understanding the differences between a living organisation and one that is not.
+    <string name= "thelivingorg"><br>a.	 What is an organisation model. </br>
+<br>  &#xA;\n  b.	 Establishing the vision, purpose, ethics and philosophy of the living organisation. </br>
+<br>&#xA; \n c.	 Identifying the stakeholders that will support the living organisation </br>
+<br>&#xA; \n d.	 Finding out how the living organisation can best support each stakeholder and how each stakeholder can best serve the needs of the living organisation. </br>
+<br>&#xA; \n e.	 Defining the nature of the relationships between the stakeholders and the relationships between the stakeholders and the living organisation.</br>
+<br>&#xA; \n f.	Understanding the differences between a living organisation and one that is not. </br>
       </string>
         <string name= "thelivingorg1">a.	Relationships are based on respect, trust, truth and transparency. How this is created and how it is destroyed.
 b.<br></br> The interests of all stakeholders are represented in the living organisation. The interests of the living organisation are represented with each of its stakeholders.
@@ -83,49 +83,50 @@ How this is achieved.
 </string>
 
       <string name= "thelivingorg2">a.	Deep understanding. Understanding others mentally and emotionally.<br></br>
-b.	Ensuring you are understood mentally and emotionally.<br></br>
-c.	Appreciating the values of each stakeholder.<br></br>
-d.	Facilitation skills for bringing out the best in one another.<br></br>
-e.	Getting to “yes”.<br></br>
-f.	Giving and receiving constructive feedback.<br></br>
-g.	Resolving conflict and misunderstanding.<br></br>
-h.	Co-operating. Co-creating. Co-innovating<br></br>
+\n b.	Ensuring you are understood mentally and emotionally.<br></br>
+
+         \n c.	Appreciating the values of each stakeholder.<br></br>
+\n  d.	Facilitation skills for bringing out the best in one another.<br></br>
+\n e.	Getting to “yes”.<br></br>
+\n f.	Giving and receiving constructive feedback.<br></br>
+\n g.	Resolving conflict and misunderstanding.<br></br>
+\n h.	Co-operating. Co-creating. Co-innovating<br></br>
 
 </string>
 
       <string name= "thelivingorg3">a.	Ensuring the four human needs and drives are catered for and are in balance.<br></br>
-b.	Ensuring people are relating well on physical, mental, emotional and inspirational levels.<br></br>
-c.	Ensuring all within the living organisation co-create the vision for their work culture.<br></br>
-d.	Ensuring resources are shared for the greatest good.<br></br>
-e.	Rewarding all stakeholders.<br></br>
+\n b.	Ensuring people are relating well on physical, mental, emotional and inspirational levels.<br></br>
+\n c.	Ensuring all within the living organisation co-create the vision for their work culture.<br></br>
+\n d.	Ensuring resources are shared for the greatest good.<br></br>
+\n e.	Rewarding all stakeholders.<br></br>
 
 </string>
 
       <string name= "thelivingorg4">a.	All are leaders. Individuals lead the projects and the causes they are most interested in.<br></br>
-b.	Lead by example. Lead to support the common good.<br></br>
-c.	Power is retained by each person. Each person is responsible for their decisions and actions.<br></br>
+\n b.	Lead by example. Lead to support the common good.<br></br>
+\n c.	Power is retained by each person. Each person is responsible for their decisions and actions.<br></br>
 
 </string>
 
  <string name= "thelivingorg5">a.	Defining the functions to be performed.<br></br>
-b.	Defining the personal qualities and capabilities required.<br></br>
-c.	Knowing the performance standards to be met.<br></br>
-d.	Knowing what increases the creation of value and what decreases value.<br></br>
-e.	Knowing what is to be done and how, with what, by who and by when<br></br>
+\n b.	Defining the personal qualities and capabilities required.<br></br>
+\n c.	Knowing the performance standards to be met.<br></br>
+\n d.	Knowing what increases the creation of value and what decreases value.<br></br>
+\n e.	Knowing what is to be done and how, with what, by who and by when<br></br>
 
 
 </string>
 
      <string name= "thelivingorg6"><br>a.	Establish the key value-creating indicators for the living organisation and each of its stakeholders.</br>
-<br>b.	Establish how, when and by who these indicators will be measured.</br><br></br>
-<br>c.	Establish who the results of the measures will be communicated to
+<br>\n b.	Establish how, when and by who these indicators will be measured.</br><br></br>
+<br>\n c.	Establish who the results of the measures will be communicated to
 and the actions that are required to optimise the value co-create by and for all stakeholders.</br>
 
 
 </string>
      <string name= "thelivingorg7">a.	All are leaders. Individuals lead the projects and the causes they are most interested in.
-b.	Lead by example. Lead to support the common good.
-c.	Power is retained by each person. Each person is responsible for their decisions and actions.
+\n b.	Lead by example. Lead to support the common good.
+\n c.	Power is retained by each person. Each person is responsible for their decisions and actions.
 
 </string>
 

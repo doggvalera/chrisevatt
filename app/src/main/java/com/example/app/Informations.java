@@ -87,12 +87,12 @@ public class Informations extends Activity {
             @Override
             public void onClick(View view) {
 
-                NewInforForPoints newInforForPoints = new NewInforForPoints();
-                Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
-//                i.putExtra("NameOfPage",numberpage);
-                i.putExtra("NameOfPage" ,numberpage);
-
-                startActivity(i);
+//                NewInforForPoints newInforForPoints = new NewInforForPoints();
+//                Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
+////                i.putExtra("NameOfPage",numberpage);
+//                i.putExtra("NameOfPage" ,numberpage);
+//
+//                startActivity(i);
 
 
 
