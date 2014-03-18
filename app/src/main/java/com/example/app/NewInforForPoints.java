@@ -40,13 +40,40 @@ public class NewInforForPoints extends Activity{
 
         int vasa = getIntent().getExtras().getInt("NameOfPage",1);
 
-        if(vasa==1){
+        if(vasa==0){
             TextView textView1 = (TextView) findViewById(R.id.textView);
             textView1.setText("1");
+            textView1.setText(getString(R.string.thelivingorg));
 
-        } else if (vasa==2){
+        } else if (vasa==1){
             TextView textView1 = (TextView) findViewById(R.id.textView);
-            textView1.setText("2");
+                       textView1.setText(getString(R.string.thelivingorg1));
+
+        }
+        else if (vasa==2){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg2));
+
+        }else if (vasa==3){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg3));
+
+        }else if (vasa==4){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg4));
+
+        }else if (vasa==5){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg5));
+
+        }else if (vasa==6){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg6));
+
+        }else if (vasa==7){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg7));
+
         }
         {
 
