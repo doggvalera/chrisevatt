@@ -197,6 +197,17 @@ public class MainActivity extends ActionBarActivity {
         startActivity(new Intent(this, AuthenicLeadingCourse.class));
 
 
+
+
+    }
+
+    public void toHelp (View toHelpView) {
+
+        int ARG_SECTION_NUMBER = 1;
+
+
+
+
     }
 
 }

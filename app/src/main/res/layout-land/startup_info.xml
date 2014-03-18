@@ -12,25 +12,26 @@
     <ExpandableListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/LivingExpandable"
+        android:id="@+id/StartUpExpandable"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_below="@+id/vide"
-        android:layout_marginTop="280dp"
-        android:layout_marginRight="7dp"
-        android:layout_marginLeft="7dp"/>
+
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="300dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginBottom="5dp"/>
 
 
     <VideoView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/videoAutLeading"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="260dp"
+        android:id="@+id/videoStartupInfo"
         android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:layout_marginRight="7dp"
-        android:layout_marginLeft="7dp"
+        android:layout_marginLeft="300dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>

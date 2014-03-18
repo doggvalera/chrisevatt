@@ -87,21 +87,10 @@ public class Informations extends Activity {
             @Override
             public void onClick(View view) {
 
-//                NewInforForPoints newInforForPoints = new NewInforForPoints();
-//                Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
-////                i.putExtra("NameOfPage",numberpage);
-//                i.putExtra("NameOfPage" ,numberpage);
-//
-//                startActivity(i);
 
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf1));
+               startActivity(browserIntent);
 
-
-
-//                NewInforForPoints newInforForPoints = new NewInforForPoints("name");
-//            new NewInforForPoints("vasa");
-//                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf1));
-//                startActivity(browserIntent);
-//
             }
 
 
@@ -113,7 +102,7 @@ public class Informations extends Activity {
 
     public void startCourseInfo1 (View view5) {
 
-        startActivity(new Intent(this, living_organizon_info.class));
+        startActivity(new Intent(this, LivingOrg.class));
 
 
     }
