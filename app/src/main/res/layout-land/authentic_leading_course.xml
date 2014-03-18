@@ -2,68 +2,51 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:paddingLeft="@dimen/activity_horizontal_margin"
-android:paddingRight="@dimen/activity_horizontal_margin"
-android:paddingTop="@dimen/activity_vertical_margin"
+
 
 
 tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-android:background="@drawable/selector">
+    android:background="#ff26ff35">
 
 
 
 
-<VideoView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/videoAutLeading"
-    android:layout_alignParentBottom="true"
-    android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true"
-    android:layout_marginRight="150dp"
-    android:layout_marginBottom="250dp" />
-
-
-
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="New Text"
-    android:id="@+id/textAutLeading"
-    android:layout_below="@+id/expandableAutLeading"
-    android:layout_alignRight="@+id/expandableAutLeading"
-    android:layout_alignEnd="@+id/expandableAutLeading"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentStart="true"
-    android:layout_above="@+id/button" />
 
 <Button
+    android:layout_marginBottom="2dp"
+    android:layout_marginRight="5dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="More information"
     android:id="@+id/autLeadingMore"
+    android:textColor="#ffffff"
     android:layout_alignParentBottom="true"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentStart="true"
-    android:textColor="#ffffff"/>
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignLeft="@+id/courseInfoAutLeading"
+    android:layout_alignStart="@+id/courseInfoAutLeading" />
 
 <Button
+    android:layout_marginBottom="2dp"
+    android:layout_marginRight="5dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Share"
-    android:id="@+id/button2"
-    android:layout_alignParentBottom="true"
-    android:layout_alignRight="@+id/textAutLeading"
-    android:layout_alignEnd="@+id/textAutLeading"
-    android:textColor="#ffffff"/>
+    android:text=" Course information"
+    android:id="@+id/courseInfoAutLeading"
+    android:textColor="#ffffff"
+    android:layout_alignTop="@+id/expandableAutLeading"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
 
 <ExpandableListView
+    android:layout_marginBottom="2dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginLeft="5dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:id="@+id/expandableAutLeading"
-    android:layout_alignTop="@+id/videoAutLeading"
-    android:layout_toRightOf="@+id/autLeadingMore"
-    android:layout_marginLeft="58dp"
-    android:layout_alignBottom="@+id/videoAutLeading" />
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@+id/autLeadingMore" />
 
 </RelativeLayout>
