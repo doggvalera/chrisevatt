@@ -113,7 +113,7 @@
         android:layout_marginBottom="5dp"/>
 
     <Button
-        android:drawableRight="@drawable/arrow_r"
+        android:drawableRight="@drawable/finalarrow_r"
         android:textColor="#ffffff"
         android:background="@android:color/transparent"
         android:layout_width="wrap_content"
@@ -125,7 +125,7 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:drawableLeft="@drawable/arrow_l"
+        android:drawableLeft="@drawable/finalarrow_l"
         android:textColor="#ffffff"
         android:background="@android:color/transparent"
 
