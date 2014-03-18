@@ -32,7 +32,8 @@ android:background="#ff2da5d7"
 
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/aboutBigTextView" />
 
     <TextView
         android:layout_width="match_parent"
@@ -60,10 +61,11 @@ android:background="#ff2da5d7"
         android:id="@+id/aboutBigTextView"
         android:textColor="#ffffff"
         android:paddingTop="5dp"
-        android:layout_below="@+id/aboutHeader"
+
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/aboutSmallTextView" />
+        android:layout_above="@+id/aboutSmallTextView"
+        android:layout_below="@+id/aboutHeader" />
 
 
 </RelativeLayout>

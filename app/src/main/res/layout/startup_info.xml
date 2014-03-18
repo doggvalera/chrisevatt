@@ -12,10 +12,10 @@
     <ExpandableListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/LivingExpandable"
+        android:id="@+id/StartUpExpandable"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_below="@+id/vide"
+
         android:layout_marginTop="280dp"
         android:layout_marginRight="7dp"
         android:layout_marginLeft="7dp"/>
@@ -24,7 +24,7 @@
     <VideoView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/videoAutLeading"
+        android:id="@+id/videoStartupInfo"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="260dp"
         android:layout_marginTop="5dp"
