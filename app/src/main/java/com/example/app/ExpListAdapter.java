@@ -103,22 +103,7 @@ public class ExpListAdapter extends BaseExpandableListAdapter {
         TextView textChild = (TextView) convertView.findViewById(R.id.textChild);
         textChild.setText(mGroups.get(groupPosition).get(childPosition));
 
-        Button button = (Button)convertView.findViewById(R.id.buttonChild);
-        button.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View view) {
-
-//                dialog.setContentView(R.layout.custom_dialog);
-//                dialog.setTitle("Custom Alert Dialog");
-//
-//                final EditText editText=(EditText)dialog.findViewById(R.id.editText);
-//                Button save=(Button)dialog.findViewById(R.id.save);
-//                Button btnCancel=(Button)dialog.findViewById(R.id.cancel);
-//                dialog.show();
-//                Toast.makeText(mContext, "button is pressed", 5000).show();
-            }
-        });
 
         return convertView;
     }

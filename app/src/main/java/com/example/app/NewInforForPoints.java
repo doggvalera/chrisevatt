@@ -36,7 +36,7 @@ public class NewInforForPoints extends Activity{
 
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.newlayoutforinformations);
+        setContentView(R.layout.new_layout_for_information);
 
         int vasa = getIntent().getExtras().getInt("NameOfPage",1);
 
