@@ -107,6 +107,15 @@ public class Informations extends Activity {
 
         });
 
+
+
+    }
+
+    public void startCourseInfo1 (View view5) {
+
+        startActivity(new Intent(this, living_organizon_info.class));
+
+
     }
 
 }
