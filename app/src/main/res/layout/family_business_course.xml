@@ -3,68 +3,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+
 
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="@drawable/selector">
+    android:background="#ff2da5d7">
 
 
 
 
-    <VideoView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/videoFamBusiness"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="150dp"
-        android:layout_marginBottom="250dp" />
 
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textFamBusiness"
-        android:layout_below="@+id/expandableFamBusiness"
-        android:layout_alignRight="@+id/expandableFamBusiness"
-        android:layout_alignEnd="@+id/expandableFamBusiness"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/button" />
 
     <Button
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="More information"
         android:id="@+id/startupFamily"
+        android:textColor="#ffffff"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ffffff"/>
+        android:layout_alignParentStart="true" />
 
     <Button
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Share"
         android:id="@+id/button2"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/textFamBusiness"
-        android:layout_alignEnd="@+id/textFamBusiness"
-        android:textColor="#ffffff"/>
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <ExpandableListView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/expandableFamBusiness"
-        android:layout_alignTop="@+id/videoFamBusiness"
-        android:layout_toRightOf="@+id/startupFamily"
-        android:layout_marginLeft="58dp"
-        android:layout_alignBottom="@+id/videoFamBusiness" />
+        android:layout_below="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/startupFamily" />
 
 </RelativeLayout>
