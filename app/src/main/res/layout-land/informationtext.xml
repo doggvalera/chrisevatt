@@ -37,13 +37,14 @@
         android:layout_marginRight="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Course Information"
+        android:text=" Course Information "
         android:textColor="#ffffff"
         android:background="#ff0460af"
         android:id="@+id/button2"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="startCourseInfo1"/>
 
     <ExpandableListView
         android:layout_width="wrap_content"

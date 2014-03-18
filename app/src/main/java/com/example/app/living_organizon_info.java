@@ -1,22 +1,18 @@
 package com.example.app;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.net.Uri;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ExpandableListView;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 /**
- * Created by valerijszemlanikins on 17.03.14.
+ * Created by Laisu on 18.3.2014.
  */
-public class AuthenicLeadingCourse extends Activity {
-
-
+public class living_organizon_info extends Activity{
     String name1 = "1.Developing a living organisation model";
     String name2 = "2.Developing collaborative relationships with all stakeholders";
     String name3 = "3.Collaborative relationship skills:";
@@ -26,16 +22,15 @@ public class AuthenicLeadingCourse extends Activity {
     String name7 = "7.Measures:";
     String name8 = "8.Developing a living organisation model";
     String name9 = "9.Developing a living organisation model";
-    String moreInf  = "http://www.chrisevatt.com/services/authentic-leading";
 
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.authentic_leading_course);
+        setContentView(R.layout.living_org_info);
 
 
-        ExpandableListView listView = (ExpandableListView)findViewById(R.id.expandableAutLeading);
+        ExpandableListView listView = (ExpandableListView)findViewById(R.id.livingCourseInfoExpandable);
 
         ArrayList<ArrayList<String>> groups = new ArrayList<ArrayList<String>>();
         // ArrayList<String> children1 = new ArrayList<String>();
@@ -60,22 +55,14 @@ public class AuthenicLeadingCourse extends Activity {
         ExpListAdapter adapter = new ExpListAdapter(getApplicationContext(), groups);
         listView.setAdapter(adapter);
 
-        Button btnMoreInf4 = (Button) findViewById(R.id.autLeadingMore);
 
 
-        btnMoreInf4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf));
-               startActivity(browserIntent);
-
-            }
-
-
-            });
-
+//
 
     }
+
+
 }
+

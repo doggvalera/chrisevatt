@@ -58,6 +58,23 @@ public class StartPlus extends Activity
         ExpListAdapter adapter = new ExpListAdapter(getApplicationContext(), groups);
         listView.setAdapter(adapter);
 
+        listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
+                int findLayout =  10+childPosition;
+
+                Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
+//                i.putExtra("NameOfPage",numberpage);
+                i.putExtra("NameOfPage",findLayout);
+
+                startActivity(i);
+
+                return false;
+            }
+        });
+
+
+
         Button btnMoreInf2 = (Button) findViewById(R.id.startupMoreInfo);
 
 
