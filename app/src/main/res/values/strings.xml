@@ -8,7 +8,7 @@
 
 
 
-    <!--Add string in FamilyCourses Class -->
+    <!--Add string in The living organisation  -->
 
 
 
@@ -20,8 +20,26 @@
     <string name= "familyCousesesPoint6">6.Managing the living organisation</string>
     <string name= "familyCousesesPoint7">7.Measures:</string>
 
+
+
+
+    <!--Add string in The family Business Seccession   -->
+
+
+
+    <string name="livingorganisation1"> 1.	Know yourself and your family:</string>
+    <string name="livingorganisation2"> 2.	Know the family business:</string>
+
+    <string name="livingorganisation3"> 3.	Family agreement to keep the business or sell the business:</string>
+
+    <string name="livingorganisation4"> 4.	Form a Family Council to look after the interests of the family:</string>
+
+    <string name="livingorganisation5"> 5.	Form a Family Owners Council to take care of the business interests of the family:</string>
+
+    <string name="livingorganisation6"> 6.Governance:</string>
+
+
     <!--Add string in AuthenicLeadingCourse Class -->
-    AuthenicLeadingCourse
 
 
     <string name= "authenicLeadingCourse1">1.authenicLeadingCourse1</string>

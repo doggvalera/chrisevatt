@@ -75,6 +75,36 @@ public class NewInforForPoints extends Activity{
             textView1.setText(getString(R.string.thelivingorg7));
 
         }
+        else if (vasa==10){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg7));
+
+        }
+        else if (vasa==11){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg7));
+
+        }
+        else if (vasa==12){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg7));
+
+        }
+        else if (vasa==13){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg7));
+
+        }
+        else if (vasa==14){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg7));
+
+        }
+        else if (vasa==15){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg7));
+
+        }
         {
 
         }

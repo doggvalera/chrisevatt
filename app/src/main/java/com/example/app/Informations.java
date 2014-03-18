@@ -58,6 +58,21 @@ public class Informations extends Activity {
 
 
 
+        listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
+                int findLayout =  0+childPosition;
+
+                Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
+//                i.putExtra("NameOfPage",numberpage);
+                i.putExtra("NameOfPage",findLayout);
+
+                startActivity(i);
+
+                return false;
+            }
+        });
+
 //        adapter.isChildSelectable(new ExpandableListView.OnChildClickListener() {
 //            @Override
 //            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {

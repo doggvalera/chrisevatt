@@ -16,15 +16,15 @@ import java.util.ArrayList;
 public class FamilyCourseClass extends Activity {
 
 
-    String name1 = "1.Developing a living organisation model";
-    String name2 = "2.Developing collaborative relationships with all stakeholders";
-    String name3 = "3.Collaborative relationship skills:";
-    String name4 = "4.Creating a collaborative and empowering culture:";
-    String name5 = "5.Leading the living organisation";
-    String name6 = "6.Managing the living organisation";
-    String name7 = "7.Measures:";
-    String name8 = "8.Developing a living organisation model";
-    String name9 = "9.Developing a living organisation model";
+//    String name1 = "1.Developing a living organisation model";
+//    String name2 = "2.Developing collaborative relationships with all stakeholders";
+//    String name3 = "3.Collaborative relationship skills:";
+//    String name4 = "4.Creating a collaborative and empowering culture:";
+//    String name5 = "5.Leading the living organisation";
+//    String name6 = "6.Managing the living organisation";
+//    String name7 = "7.Measures:";
+//    String name8 = "8.Developing a living organisation model";
+//    String name9 = "9.Developing a living organisation model";
 
 
     String moreInf3  = "http://www.chrisevatt.com/services/family-businesses-succession";
@@ -41,13 +41,13 @@ public class FamilyCourseClass extends Activity {
         //children1.add("Training modules:");
 //        children1.add("Child_2");
         // groups.add(children1);
-        children2.add(name1);
-        children2.add(name2);
-        children2.add(name3);
-        children2.add(name4);
-        children2.add(name5);
-        children2.add(name6);
-        children2.add(name7);
+        children2.add(getString(R.string.livingorganisation1));
+        children2.add(getString(R.string.livingorganisation2));
+        children2.add(getString(R.string.livingorganisation3));
+        children2.add(getString(R.string.livingorganisation4));
+        children2.add(getString(R.string.livingorganisation5));
+        children2.add(getString(R.string.livingorganisation6));
+//        children2.add(getString(R.string.livingorganisation7));
 //        children2.add(name);
         listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override

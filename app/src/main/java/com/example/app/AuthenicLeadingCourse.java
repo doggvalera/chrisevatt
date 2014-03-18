@@ -26,9 +26,10 @@ public class AuthenicLeadingCourse extends Activity {
     String name7 = "7.Measures:";
     String name8 = "8.Developing a living organisation model";
     String name9 = "9.Developing a living organisation model";
-
-
     String moreInf  = "http://www.chrisevatt.com/";
+
+
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.authentic_leading_course);
