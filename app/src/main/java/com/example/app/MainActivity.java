@@ -2,6 +2,7 @@ package com.example.app;
 
 import java.util.Locale;
 
+import android.net.Uri;
 import android.view.View.OnClickListener;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
@@ -20,7 +21,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.MediaController;
 import android.widget.TextView;
+import android.widget.Toast;
+import android.widget.VideoView;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -49,6 +53,8 @@ public class MainActivity extends ActionBarActivity {
 
 
 
+
+
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -60,7 +66,11 @@ public class MainActivity extends ActionBarActivity {
 
 
 
+
     }
+
+
+
 
 
     @Override
@@ -201,14 +211,9 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public void toHelp (View toHelpView) {
-
-        int ARG_SECTION_NUMBER = 1;
 
 
 
-
-    }
 
 }
 

@@ -6,7 +6,7 @@ android:layout_height="match_parent"
 
 
 tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-android:background="#ff26ff35">
+    android:background="#ff89ff70">
 
 
 
@@ -22,6 +22,7 @@ android:background="#ff26ff35">
     android:text="More information"
     android:id="@+id/autLeadingMore"
     android:textColor="#ffffff"
+
     android:layout_alignParentBottom="true"
     android:layout_alignParentRight="true"
     android:layout_alignParentEnd="true"
@@ -36,6 +37,7 @@ android:background="#ff26ff35">
     android:layout_height="wrap_content"
     android:text="Course information"
     android:id="@+id/button2"
+
     android:textColor="#ffffff"
     android:layout_alignParentTop="true"
     android:layout_alignParentRight="true"
