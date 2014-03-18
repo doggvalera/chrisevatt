@@ -42,9 +42,12 @@ public class NewInforForPoints extends Activity{
 
         if(vasa==1){
             TextView textView1 = (TextView) findViewById(R.id.textView);
-            textView1.setText("ffsdfsdf");
+            textView1.setText("1");
 
-        }else
+        } else if (vasa==2){
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText("2");
+        }
         {
 
         }

@@ -3,12 +3,14 @@ package com.example.app;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ExpandableListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,7 +25,18 @@ public class ExpListAdapter extends BaseExpandableListAdapter {
 //        final Dialog dialog = new Dialog(view1);
 //
 //    }
+
+
 //
+  int numberofpage = 1;
+
+    public Context getmContext() {
+        return mContext;
+    }
+
+    public void setmContext(Context mContext) {
+        this.mContext = mContext;
+    }
 
     private ArrayList<ArrayList<String>> mGroups;
     private Context mContext;
@@ -92,6 +105,8 @@ public class ExpListAdapter extends BaseExpandableListAdapter {
 
     }
 
+
+
     @Override
     public View getChildView(int groupPosition, int childPosition, boolean isLastChild,
                              View convertView, ViewGroup parent) {
@@ -103,11 +118,25 @@ public class ExpListAdapter extends BaseExpandableListAdapter {
         TextView textChild = (TextView) convertView.findViewById(R.id.textChild);
         textChild.setText(mGroups.get(groupPosition).get(childPosition));
 
+
+
         Button button = (Button)convertView.findViewById(R.id.buttonChild);
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
+
+                Intent i = new Intent(getmContext(), NewInforForPoints.class);
+//                i.putExtra("NameOfPage",numberpage);
+               // i.putExtra("NameOfPage" ,numberofpage);
+
+
+
+                      getmContext().startActivity(i);
+
+               //startActivity(i);
+
+
 
 //                dialog.setContentView(R.layout.custom_dialog);
 //                dialog.setTitle("Custom Alert Dialog");
@@ -127,6 +156,8 @@ public class ExpListAdapter extends BaseExpandableListAdapter {
     public boolean isChildSelectable(int groupPosition, int childPosition) {
         return true;
     }
-    }
+
+
+}
 
 

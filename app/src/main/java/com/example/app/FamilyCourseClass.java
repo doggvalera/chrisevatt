@@ -49,7 +49,20 @@ public class FamilyCourseClass extends Activity {
         children2.add(name6);
         children2.add(name7);
 //        children2.add(name);
+        listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
 
+
+                Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
+//                i.putExtra("NameOfPage",numberpage);
+                i.putExtra("NameOfPage",childPosition);
+
+                startActivity(i);
+
+                return false;
+            }
+        });
 //        children2.add("Child_2");
 //        children2.add("Child_3");
         groups.add(children2);

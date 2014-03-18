@@ -1,6 +1,7 @@
 package com.example.app;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -17,6 +18,8 @@ import java.util.EventListener;
 public class Informations extends Activity {
 
     int numberpage = 1;
+    private Context context;
+
     String moreInf1  = "http://www.chrisevatt.com/services/the-living-organisation";
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -49,6 +52,20 @@ public class Informations extends Activity {
         listView.setAdapter(adapter);
 
         Button btnMoreInf1 = (Button) findViewById(R.id.livingOrgMore);
+        adapter.setmContext(getBaseContext());
+
+
+
+
+
+//        adapter.isChildSelectable(new ExpandableListView.OnChildClickListener() {
+//            @Override
+//            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
+//                // Handle clicks on the children here...
+//                return false;
+//            }
+//        });
+
 
 
         btnMoreInf1.setOnClickListener(new View.OnClickListener() {
@@ -61,6 +78,9 @@ public class Informations extends Activity {
                 i.putExtra("NameOfPage" ,numberpage);
 
                 startActivity(i);
+
+
+
 
 //                NewInforForPoints newInforForPoints = new NewInforForPoints("name");
 //            new NewInforForPoints("vasa");
