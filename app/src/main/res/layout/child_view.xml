@@ -5,18 +5,10 @@
     <TextView
         android:id="@+id/textChild"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:textColor="@android:color/white"
         />
-    <Button
-        android:id="@+id/buttonChild"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="10dp"
-        android:text="Button"
-        android:focusable="false"
-        />
+
 </LinearLayout>
