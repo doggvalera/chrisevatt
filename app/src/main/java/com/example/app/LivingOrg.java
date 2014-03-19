@@ -4,7 +4,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
 import android.widget.ExpandableListView;
 import android.widget.MediaController;
 import android.widget.VideoView;
@@ -19,6 +22,21 @@ public class LivingOrg extends Activity {
     int numberpage = 1;
 
     protected void onCreate(Bundle savedInstanceState) {
+
+
+
+
+
+//        mVideoURL = getIntent().getStringExtra("EXT_URL");
+//        Log.i("VIDEO URL", " " + mVideoURL);
+
+        MediaController mc = new MediaController(this);
+
+        VideoView mWebView = (VideoView) findViewById(R.id.videoLivingInfo);
+
+
+        mWebView.setVideoURI(Uri.parse("https://www.youtube.com/watch?v=bgaLeCaiy_Y&feature=youtube_gdata"));
+
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.living_org_info);

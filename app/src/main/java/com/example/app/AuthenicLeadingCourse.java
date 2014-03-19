@@ -17,15 +17,7 @@ import java.util.Random;
 public class AuthenicLeadingCourse extends Activity {
 
 
-    String name1 = "1.Developing a living organisation model";
-    String name2 = "2.Developing collaborative relationships with all stakeholders";
-    String name3 = "3.Collaborative relationship skills:";
-    String name4 = "4.Creating a collaborative and empowering culture:";
-    String name5 = "5.Leading the living organisation";
-    String name6 = "6.Managing the living organisation";
-    String name7 = "7.Measures:";
-    String name8 = "8.Developing a living organisation model";
-    String name9 = "9.Developing a living organisation model";
+
     String moreInf  = "http://www.chrisevatt.com/services/authentic-leading";
 
 
@@ -59,6 +51,23 @@ public class AuthenicLeadingCourse extends Activity {
         //Создаем адаптер и передаем context и список с данными
         ExpListAdapter adapter = new ExpListAdapter(getApplicationContext(), groups);
         listView.setAdapter(adapter);
+
+
+
+        listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
+                int findLayout =  20+childPosition;
+
+                Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
+//                i.putExtra("NameOfPage",numberpage);
+                i.putExtra("NameOfPage",findLayout);
+
+                startActivity(i);
+
+                return false;
+            }
+        });
 
         Button btnMoreInf4 = (Button) findViewById(R.id.autLeadingMore);
 

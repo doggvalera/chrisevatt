@@ -17,15 +17,15 @@ public class StartPlus extends Activity
 {
 
 
-    String name1 = "1.Developing a living organisation model";
-    String name2 = "2.Developing collaborative relationships with all stakeholders";
-    String name3 = "3.Collaborative relationship skills:";
-    String name4 = "4.Creating a collaborative and empowering culture:";
-    String name5 = "5.Leading the living organisation";
-    String name6 = "6.Managing the living organisation";
-    String name7 = "7.Measures:";
-    String name8 = "8.Developing a living organisation model";
-    String name9 = "9.Developing a living organisation model";
+    String name1 = "1.sdsfs";
+    String name2 = "2.fffff";
+    String name3 = "3.ffffff";
+    String name4 = "4.Cffffff";
+    String name5 = "5.ffff";
+    String name6 = "6.fffff";
+    String name7 = "7.ffffff";
+    String name8 = "8.fffff";
+    String name9 = "9.ffffff";
 
 
     String moreInf2  = "http://www.chrisevatt.com/services/startupplus/";
