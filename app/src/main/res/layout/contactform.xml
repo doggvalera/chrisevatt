@@ -21,6 +21,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/editText"
         android:textColor="#ffffff"
+        android:text="chris@chrisevatt.com"
+        android:enabled="false"
         />
 
     <TextView
