@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backGroundPurple"
+    android:background="@color/backGroundOlive"
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment">
 
@@ -31,8 +31,7 @@
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        style="@style/ButtonThemePurple"/>
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_marginTop="2dp"
@@ -41,7 +40,7 @@
         android:layout_height="wrap_content"
         android:text=" Course information "
         android:textColor="#ffffff"
-        style="@style/ButtonThemePurple"
+
         android:id="@+id/button2"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
