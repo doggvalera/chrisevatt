@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/editText"
         android:textColor="#ffffff"
-        android:text="chris@chrisevatt.com"
+        android:text="chrisevatt.com@gmail.com"
         android:enabled="false"
         />
 
