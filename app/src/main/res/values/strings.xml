@@ -21,7 +21,10 @@
     <string name= "familyCousesesPoint7">7.Measures:</string>
 
 
-
+    <string name="feedbacktype1">Praise</string>
+    <string name="feedbacktype2">Gripe</string>
+    <string name="feedbacktype3">Suggestion</string>
+    <string name="feedbacktype4">Bug</string>
 
     <!--Add string in The family Business Seccession   -->
 

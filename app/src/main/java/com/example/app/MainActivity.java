@@ -204,7 +204,20 @@ public class MainActivity extends ActionBarActivity {
     }
     public void startCourse4 (View view4) {
 
-        startActivity(new Intent(this, AuthenicLeadingCourse.class));
+       startActivity(new Intent(this, AuthenicLeadingCourse.class));
+//        startActivity(new Intent(this, ContactForm.class));
+
+
+
+
+
+    }
+
+
+
+    public void startCourse5 (View view4) {
+
+        startActivity(new Intent(this, ContactForm.class));
 
 
 

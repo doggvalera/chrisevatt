@@ -56,7 +56,7 @@ public class FamilyCourseClass extends Activity {
 
         children1.add("dfsdfsdf");
 
-        
+
 //        children2.add(getString(R.string.livingorganisation7));
 //        children2.add(name);
         listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {

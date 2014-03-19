@@ -31,4 +31,13 @@
         android:layout_marginLeft="7dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_above="@+id/textView"
+        android:onClick="startCourse5"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
