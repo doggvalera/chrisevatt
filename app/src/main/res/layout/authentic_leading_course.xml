@@ -6,7 +6,7 @@ android:layout_height="match_parent"
 
 
 tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="@color/backGroundBlue">
+    android:background="@color/backGroundOlive">
 
 
 
@@ -30,7 +30,8 @@ tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:layout_alignParentStart="true"
     android:layout_marginTop="2dp"
     android:layout_marginRight="5dp"
-    android:layout_marginLeft="5dp"/>
+    android:layout_marginLeft="5dp"
+    style="@style/ButtonThemeOlive"/>
 
 <Button
     android:layout_width="wrap_content"
@@ -46,7 +47,8 @@ tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:layout_alignParentStart="true"
     android:layout_marginBottom="2dp"
     android:layout_marginRight="5dp"
-    android:layout_marginLeft="5dp"/>
+    android:layout_marginLeft="5dp"
+    style="@style/ButtonThemeOlive"/>
 
 <ExpandableListView
     android:layout_marginRight="5dp"

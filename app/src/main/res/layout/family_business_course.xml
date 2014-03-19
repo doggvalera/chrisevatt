@@ -7,7 +7,7 @@
 
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="@color/backGroundBlue">
+    android:background="@color/backGroundOlive">
 
 
 
@@ -28,7 +28,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        style="@style/ButtonThemeOlive"/>
 
     <Button
         android:layout_marginTop="2dp"
@@ -44,7 +45,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        style="@style/ButtonThemeOlive"/>
 
     <ExpandableListView
         android:layout_marginLeft="5dp"

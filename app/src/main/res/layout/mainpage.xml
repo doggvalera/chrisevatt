@@ -1,3 +1,4 @@
+<!--android:background="#2da5d7" -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
@@ -6,7 +7,8 @@
     tools:context="com.example.app.MainActivity"
     tools:ignore="MergeRootFrame"
     android:layout_gravity="center"
-    android:background="#ff2da5d7"
+    android:background="#02d9fa"
+
     android:scrollbars="vertical">
 
         <ImageView
@@ -34,13 +36,14 @@
                 android:textColor="#ffffff"
                 android:id="@+id/btnLivOrg"
                 android:layout_gravity="center_horizontal"
-                android:background="#ff008daf"
+
                 android:onClick="startCourse1"
                 android:layout_below="@+id/button4"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                style="@style/ButtonThemeBlue"/>
 
             <Button
                 android:layout_marginTop="2dp"
@@ -52,14 +55,15 @@
                 android:textColor="#ffffff"
                 android:id="@+id/button2"
                 android:drawableLeft="@drawable/course_startup_50px"
-                android:background="#ff008daf"
+
                 android:layout_gravity="center_horizontal"
                 android:onClick="startCourse3"
                 android:layout_below="@+id/button3"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                style="@style/ButtonThemeBlue"/>
 
             <Button
                 android:layout_marginTop="2dp"
@@ -70,7 +74,7 @@
                 android:text="Authentic Leading"
                 android:textColor="#ffffff"
                 android:id="@+id/button3"
-                android:background="#ff008daf"
+
                 android:layout_gravity="center_horizontal"
                 android:clickable="true"
                 android:drawableLeft="@drawable/course_authleading_50px"
@@ -79,7 +83,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                style="@style/ButtonThemeBlue"/>
 
             <Button
                 android:layout_marginTop="2dp"
@@ -90,7 +95,7 @@
                 android:text="Family Businesses Succession"
                 android:textColor="#ffffff"
                 android:id="@+id/button4"
-                android:background="#ff008daf"
+
                 android:drawableLeft="@drawable/course_familybs_50px"
                 android:layout_gravity="center_horizontal"
                 android:onClick="startCourse2"
@@ -98,7 +103,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignLeft="@+id/btnLivOrg"
-                android:layout_alignStart="@+id/btnLivOrg" />
+                android:layout_alignStart="@+id/btnLivOrg"
+                style="@style/ButtonThemeBlue"/>
 
     <TextView
         android:layout_marginTop="50dp"

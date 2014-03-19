@@ -43,6 +43,13 @@ public class LivingOrg extends Activity {
         listView.setAdapter(adapter);
 
 
+        String path1="http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
+        Uri uri=Uri.parse(path1);
+
+        VideoView video=(VideoView)findViewById(R.id.videoLivingInfo);
+        video.setVideoURI(uri);
+        video.start();
+
     }
 
 }

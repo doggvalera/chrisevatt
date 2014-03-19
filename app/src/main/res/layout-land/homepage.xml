@@ -14,7 +14,7 @@
         android:text="Welcome to use Chris Evatt - Key To Success Application \n\n\n\n\n\n If you have any questions, comments or feedback do not hesitate to contact via contact form"
         android:id="@+id/textView"
         android:layout_alignTop="@+id/videoHelp"
-        android:layout_marginLeft ="305dp"
+        android:layout_marginLeft ="325dp"
         android:layout_marginBottom="2dp"
         android:layout_marginTop="5dp"
         android:layout_above="@+id/button" />
