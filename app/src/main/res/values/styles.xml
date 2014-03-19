@@ -1,8 +1,49 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+
+
+
+
+    <style name="ButtonThemeOlive" parent="android:Widget.Button">
+        <item name="android:background">@drawable/btn_olive_btn_default_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#000000</item>
+
+    </style>
+
+    <style name="ButtonThemeBlue" parent="android:Widget.Button">
+        <item name="android:background">@drawable/btn_blue_btn_default_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#000000</item>
+
+    </style>
+
+    <style name="ButtonThemeOrange" parent="android:Widget.Button">
+        <item name="android:background">@drawable/btn_orange_btn_default_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#000000</item>
+
+    </style>
+
+    <style name="ButtonThemePurple" parent="android:Widget.Button">
+        <item name="android:background">@drawable/btn_purple_btn_default_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#000000</item>
+
+    </style>
+
+
+    <style name="AppTheme" parent="@style/_AppTheme"/>
+
+    <style name="_AppTheme" parent="Theme.AppCompat.Light">
+
+
+
     </style>
 
 </resources>

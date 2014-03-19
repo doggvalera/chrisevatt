@@ -25,7 +25,8 @@ tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:layout_alignParentRight="true"
     android:layout_alignParentEnd="true"
     android:layout_alignLeft="@+id/courseInfoAutLeading"
-    android:layout_alignStart="@+id/courseInfoAutLeading" />
+    android:layout_alignStart="@+id/courseInfoAutLeading"
+    style="@style/ButtonThemeOlive"/>
 
 <Button
     android:layout_marginBottom="2dp"
@@ -38,7 +39,8 @@ tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
 
     android:layout_alignTop="@+id/expandableAutLeading"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    style="@style/ButtonThemeOlive"/>
 
 <ExpandableListView
     android:layout_marginBottom="2dp"

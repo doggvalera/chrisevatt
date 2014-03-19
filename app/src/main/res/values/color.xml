@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
+
+    <color
+        name="backGroundOlive"
+        >#d3f002</color>
+
+    <color
+        name="backGroundOrange"
+        >#ffbb03</color>
+
+    <color
+        name="backGroundPurple"
+        >#e63fff</color>
+
     <color
         name="backGroundBlue"
-        >#ff2da5d7</color>
+        >#ff00b3cd</color>
+
 </resources>

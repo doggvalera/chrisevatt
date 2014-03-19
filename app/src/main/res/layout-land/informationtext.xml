@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:text="More information"
         android:textColor="#ffffff"
-        android:background="#ff0460af"
+
         android:id="@+id/livingOrgMore"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/button2"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:text=" Course information "
         android:textColor="#ffffff"
-        android:background="#ff0460af"
+
         android:id="@+id/button2"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
