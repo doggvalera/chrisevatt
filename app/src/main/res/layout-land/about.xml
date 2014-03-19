@@ -13,15 +13,19 @@
         android:id="@+id/aboutSmallTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacus nulla, malesuada ac dictum congue,\ndictum at magna. Fusce eu ornare metus.Nam laoreet nisl ut tortor dapibus "
+        android:text="Christopher speaks internationally, is a confident and mentor to leaders, coach and author of a forth-coming book"
         android:textColor="#ffffff"
-        android:paddingTop="30dp"
+
         android:layout_above="@+id/aboutimageView"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/aboutHeader" />
+        android:layout_below="@+id/aboutHeader"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="5dp"/>
 
     <ImageView
 
@@ -44,27 +48,40 @@
         android:id="@+id/aboutHeader"
         android:gravity="center"
         android:textColor="#ffffff"
-
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/section_label"
         android:layout_alignEnd="@+id/section_label"
-        android:paddingBottom="10dp"/>
+        android:paddingBottom="10dp"
+        />
 
 
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+    </ScrollView>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Lorem ipsum dolor sit amet, \n \nconsectetur adipiscing elit. Mauris lacus nulla, \n malesuada ac dictum congue,\n dictum at magna.\n Fusce eu ornare metus.\n Nam laoreet nisl ut \n  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Christopher Evatt, New Zealander, is at the forefront of people creating living organisations where all stakeholders are at their best and together achieve extraordinary positive outcomes.
+    With Christopher, people come alive.
+    They engage with their inspiration and creative intelligences and quantum-leap to exceptionally higher levels of well being and accomplishment.
+    With his deep insights and neuro-science based life-tools, people discover their purposes, use their finest capabilities, gain break-through understandings and experience enhanced well being, energy and accomplishment "
         android:id="@+id/aboutBigTextView"
         android:textColor="#ffffff"
         android:paddingTop="5dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/aboutSmallTextView"
+        android:layout_alignStart="@+id/aboutSmallTextView"
         android:layout_toLeftOf="@+id/aboutimageView"
         android:layout_alignTop="@+id/aboutimageView" />
 
