@@ -38,7 +38,7 @@ public class FamilyCourseClass extends Activity {
         ExpandableListView listView = (ExpandableListView)findViewById(R.id.expandableFamBusiness);
 
         ArrayList<ArrayList<String>> groups = new ArrayList<ArrayList<String>>();
-         ArrayList<String> children1 = new ArrayList<String>();
+//         ArrayList<String> children1 = new ArrayList<String>();
         ArrayList<String> children2 = new ArrayList<String>();
 //        children1.add("Training modules:");
 //        children1.add("Child_2");
