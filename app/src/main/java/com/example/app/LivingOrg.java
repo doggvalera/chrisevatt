@@ -2,6 +2,7 @@ package com.example.app;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +16,11 @@ import java.util.ArrayList;
  * Created by VIO on 3/18/14.
  */
 public class LivingOrg extends Activity {
+
+    private static final String path ="http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
+    private VideoView video;
+    private MediaController ctlr;
+
 
     int numberpage = 1;
 
@@ -42,14 +48,18 @@ public class LivingOrg extends Activity {
         ExpListAdapter adapter = new ExpListAdapter(getApplicationContext(), groups);
         listView.setAdapter(adapter);
 
+        video = (VideoView) findViewById(R.id.videoLivingInfo);
+        video.setVideoPath(path);
 
-        String path1="http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
-        Uri uri=Uri.parse(path1);
-
-        VideoView video=(VideoView)findViewById(R.id.videoLivingInfo);
-        video.setVideoURI(uri);
+        ctlr = new MediaController(this);
+        ctlr.setMediaPlayer(video);
+        video.setMediaController(ctlr);
         video.start();
+
+
 
     }
 
-}
+
+    }
+

@@ -7,7 +7,7 @@
 
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="@color/backGroundBlue">
+    android:background="@color/backGroundOrange">
 
 
 

@@ -67,6 +67,9 @@ public class MainActivity extends ActionBarActivity {
 
 
 
+
+
+
     }
 
 
@@ -224,13 +227,7 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public int goToHelp (View viewGoToHelp) {
 
-        int  ARG_SECTION_NUMBER = 1;
-
-        return ARG_SECTION_NUMBER;
-
-    }
 
 
 
