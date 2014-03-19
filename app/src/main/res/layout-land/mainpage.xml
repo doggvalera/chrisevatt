@@ -21,7 +21,7 @@
             <Button
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_marginTop="2dp"
+
                 android:layout_width="210dp"
                 android:layout_height="wrap_content"
                 android:text="The living organization"
@@ -42,7 +42,7 @@
 
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_marginTop="2dp"
+
                 android:layout_width="210dp"
                 android:layout_height="wrap_content"
                 android:text="StartupPLUS"
@@ -63,7 +63,7 @@
 
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_marginTop="0dp"
+
                 android:layout_width="210dp"
                 android:layout_height="wrap_content"
                 android:text="Authentic Leading"
@@ -85,7 +85,7 @@
 
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_marginTop="2dp"
+
                 android:layout_width="210dp"
                 android:layout_height="wrap_content"
                 android:text="Family Businesses Succession"
@@ -113,7 +113,7 @@
         android:clickable="false"
         android:layout_above="@+id/button3"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp"/>
+        />
 
     <Button
         android:drawableRight="@drawable/finalarrow_r"

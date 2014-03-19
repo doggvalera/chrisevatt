@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="@color/backGroundBlue"
+    android:background="@color/backGroundPurple"
     >
 
 
@@ -26,7 +26,7 @@
     <VideoView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/videoAutLeading"
+        android:id="@+id/videoLivingInfo"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_marginRight="7dp"

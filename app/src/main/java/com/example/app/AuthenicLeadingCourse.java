@@ -17,13 +17,14 @@ import java.util.Random;
 public class AuthenicLeadingCourse extends Activity {
 
 
-
+    
     String moreInf  = "http://www.chrisevatt.com/services/authentic-leading";
 
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.authentic_leading_course);
 
 
