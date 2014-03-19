@@ -30,11 +30,11 @@ public class Informations extends Activity {
         ExpandableListView listView = (ExpandableListView)findViewById(R.id.expandableListView);
 
         ArrayList<ArrayList<String>> groups = new ArrayList<ArrayList<String>>();
-       // ArrayList<String> children1 = new ArrayList<String>();
+        ArrayList<String> children1 = new ArrayList<String>();
         ArrayList<String> children2 = new ArrayList<String>();
-        //children1.add("Training modules:");
-//        children1.add("Child_2");
-       // groups.add(children1);
+        children1.add("Training modules:");
+        children1.add("Child_2");
+       groups.add(children1);
         children2.add(getString(R.string.familyCousesesPoint1));
         children2.add(getString(R.string.familyCousesesPoint2));
         children2.add(getString(R.string.familyCousesesPoint3));
@@ -42,6 +42,8 @@ public class Informations extends Activity {
         children2.add(getString(R.string.familyCousesesPoint5));
         children2.add(getString(R.string.familyCousesesPoint6));
         children2.add(getString(R.string.familyCousesesPoint7));
+        groups.add(children2);
+
 //        children2.add(name);
 
 //        children2.add("Child_2");

@@ -49,6 +49,7 @@ public class StartPlus extends Activity
         children2.add(name5);
         children2.add(name6);
         children2.add(name7);
+
 //        children2.add(name);
 
 //        children2.add("Child_2");

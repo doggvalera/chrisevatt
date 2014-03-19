@@ -36,17 +36,27 @@ public class FamilyCourseClass extends Activity {
         ExpandableListView listView = (ExpandableListView)findViewById(R.id.expandableFamBusiness);
 
         ArrayList<ArrayList<String>> groups = new ArrayList<ArrayList<String>>();
-        // ArrayList<String> children1 = new ArrayList<String>();
+         ArrayList<String> children1 = new ArrayList<String>();
         ArrayList<String> children2 = new ArrayList<String>();
-        //children1.add("Training modules:");
-//        children1.add("Child_2");
-        // groups.add(children1);
+        children1.add("Training modules:");
+        children1.add("Child_2");
+        groups.add(children1);
         children2.add(getString(R.string.livingorganisation1));
         children2.add(getString(R.string.livingorganisation2));
         children2.add(getString(R.string.livingorganisation3));
         children2.add(getString(R.string.livingorganisation4));
         children2.add(getString(R.string.livingorganisation5));
         children2.add(getString(R.string.livingorganisation6));
+        children2.add("vasdasd");
+        groups.add(children2);
+        children1.add("dfsdfsdf");
+        children1.add("dfsdfsdf");
+
+        children1.add("dfsdfsdf");
+
+        children1.add("dfsdfsdf");
+
+        
 //        children2.add(getString(R.string.livingorganisation7));
 //        children2.add(name);
         listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
