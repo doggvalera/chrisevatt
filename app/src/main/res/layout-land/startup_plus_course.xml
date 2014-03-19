@@ -6,7 +6,7 @@
 
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="@color/backGroundBlue"
+    android:background="@color/backGroundLilac"
     >
 
 
@@ -25,7 +25,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_toRightOf="@+id/expandableStartPlus"
-        style="@style/ButtonThemeBlue"/>
+        style="@style/ButtonThemeLilac"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        style="@style/ButtonThemeBlue"/>
+        style="@style/ButtonThemeLilac"/>
 
     <ExpandableListView
         android:layout_width="wrap_content"
