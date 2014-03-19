@@ -2,6 +2,7 @@ package com.example.app;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -37,6 +38,7 @@ public class NewInforForPoints extends Activity{
 
 
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.new_layout_for_information);
 
         int vasa = getIntent().getExtras().getInt("NameOfPage",1);
