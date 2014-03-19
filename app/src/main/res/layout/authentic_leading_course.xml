@@ -22,7 +22,7 @@ tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:text="More information"
     android:id="@+id/autLeadingMore"
     android:textColor="#ffffff"
-
+  
     android:layout_alignParentBottom="true"
     android:layout_alignParentRight="true"
     android:layout_alignParentEnd="true"

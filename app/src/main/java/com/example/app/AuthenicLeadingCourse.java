@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ExpandableListView;
 
@@ -15,6 +16,7 @@ import java.util.Random;
  * Created by valerijszemlanikins on 17.03.14.
  */
 public class AuthenicLeadingCourse extends Activity {
+
 
 
     String name1 = "1.Developing a living organisation model";
@@ -32,6 +34,7 @@ public class AuthenicLeadingCourse extends Activity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.authentic_leading_course);
 
 

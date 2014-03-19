@@ -6,14 +6,14 @@
 
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="@color/backGroundOlive">
+    android:background="@color/backGroundPurple">
 
     <Button
         android:layout_marginTop="2dp"
         android:layout_marginBottom="2dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-
+        style="@style/ButtonThemePurple"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="More information"
@@ -25,7 +25,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        style="@style/ButtonThemeOlive"/>
+        />
 
 
 
@@ -53,7 +53,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="startCourseInfo1"
-        style="@style/ButtonThemeOlive"/>
+        style="@style/ButtonThemePurple"/>
         
 
 </RelativeLayout>
