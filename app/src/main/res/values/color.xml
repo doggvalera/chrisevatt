@@ -19,4 +19,8 @@
         name="backGroundBlue"
         >#ff00b3cd</color>
 
+    <color
+        name="backGroundLilac"
+        >#9f8cff</color>
+
 </resources>
