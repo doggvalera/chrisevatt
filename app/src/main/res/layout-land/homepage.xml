@@ -3,16 +3,47 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff2da5d7">
+    android:background="@color/backGroundBlue"
+    >
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ffff"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="HELP"
+        android:text="Welcome to use Chris Evatt - Key To Success Application \n\n\n\n\n\n If you have any questions, comments or feedback do not hesitate to contact via contact form"
         android:id="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignTop="@+id/videoHelp"
+        android:layout_marginLeft ="305dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_above="@+id/button" />
+
+    <VideoView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="320dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoHelp"
+        android:layout_alignBottom="@+id/button" />
+
+
+    <Button
+
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Contact Us! "
+        android:id="@+id/button"
+        android:onClick="startCourse5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
 </RelativeLayout>

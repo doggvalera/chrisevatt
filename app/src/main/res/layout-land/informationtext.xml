@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff2da5d7"
+    android:background="@color/backGroundBlue"
+
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment">
 
 
@@ -37,7 +38,7 @@
         android:layout_marginRight="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Course Information "
+        android:text=" Course information "
         android:textColor="#ffffff"
         android:background="#ff0460af"
         android:id="@+id/button2"

@@ -6,7 +6,7 @@
 
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="#ff2da5d7">
+    android:background="@color/backGroundBlue">
 
     <Button
         android:layout_marginTop="2dp"
@@ -52,6 +52,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="startModule1"/>
+        android:onClick="startCourseInfo1"/>
 
 </RelativeLayout>

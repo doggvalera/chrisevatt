@@ -2,9 +2,12 @@ package com.example.app;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 import java.util.ArrayList;
 
@@ -38,6 +41,7 @@ public class LivingOrg extends Activity {
 
         ExpListAdapter adapter = new ExpListAdapter(getApplicationContext(), groups);
         listView.setAdapter(adapter);
+
 
     }
 

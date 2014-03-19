@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="#ff2da5d7">
+    android:background="@color/backGroundBlue">
 
 
     <ExpandableListView
@@ -18,15 +18,16 @@
         android:layout_below="@+id/vide"
         android:layout_marginTop="280dp"
         android:layout_marginRight="7dp"
-        android:layout_marginLeft="7dp"/>
+        android:layout_marginLeft="7dp"
+        />
 
 
     <VideoView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/videoAutLeading"
+        android:id="@+id/videoLivingInfo"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="260dp"
+        android:layout_marginBottom="265dp"
         android:layout_marginTop="5dp"
         android:layout_marginRight="7dp"
         android:layout_marginLeft="7dp"

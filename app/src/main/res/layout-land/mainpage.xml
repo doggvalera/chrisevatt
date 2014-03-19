@@ -6,7 +6,7 @@
     tools:context="com.example.app.MainActivity"
     tools:ignore="MergeRootFrame"
     android:layout_gravity="center"
-    android:background="#ff2da5d7"
+    android:background="@color/backGroundBlue"
     android:scrollbars="vertical">
 
         <ImageView
@@ -118,7 +118,7 @@
         android:background="@android:color/transparent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:text=" About "
         android:id="@+id/button"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
@@ -128,7 +128,7 @@
         android:drawableLeft="@drawable/finalarrow_l"
         android:textColor="#ffffff"
         android:background="@android:color/transparent"
-
+        android:text=" Help "
         android:layout_marginBottom="2dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
@@ -138,7 +138,8 @@
         android:id="@+id/button5"
         android:layout_alignTop="@+id/button"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="goToHelp"/>
 
 
 

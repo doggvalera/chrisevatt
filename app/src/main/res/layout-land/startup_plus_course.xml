@@ -6,7 +6,8 @@
 
 
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="#02d9fa">
+    android:background="@color/backGroundBlue"
+    >
 
 
 
@@ -28,7 +29,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Course Information"
+        android:text=" Course information"
         android:id="@+id/button2"
         android:textColor="#ffffff"
         android:background="#ff0d9aaf"
