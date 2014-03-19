@@ -13,13 +13,14 @@ android:background="#ff2da5d7"
         android:id="@+id/aboutSmallTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacus nulla, malesuada ac dictum congue,\ndictum at magna. Fusce eu ornare metus.Nam laoreet nisl ut tortor dapibus "
+        android:text="Christopher speaks internationally, is a confident and mentor to leaders, coach and author of a forth-coming book."
         android:textColor="#ffffff"
         android:paddingTop="30dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/aboutimageView" />
+        android:layout_toLeftOf="@+id/aboutimageView"
+        android:layout_below="@+id/aboutBigTextView" />
 
     <ImageView
 
@@ -57,14 +58,16 @@ android:background="#ff2da5d7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Lorem ipsum dolor sit amet, \n \nconsectetur adipiscing elit. Mauris lacus nulla, \n malesuada ac dictum congue,\n dictum at magna.\n Fusce eu ornare metus.\n Nam laoreet nisl ut \n  Class aptent taciti sociosqu ad litora \ntorquent per conubia nostra, \nper inceptos himenaeos. "
+        android:text="Christopher Evatt, New Zealander, is at the forefront of people creating living organisations where all stakeholders are at their best and together achieve extraordinary positive outcomes.
+With Christopher, people come alive.
+They engage with their inspiration and creative intelligences and quantum-leap to exceptionally higher levels of well being and accomplishment.
+With his deep insights and neuro-science based life-tools, people discover their purposes, use their finest capabilities, gain break-through understandings and experience enhanced well being, energy and accomplishment."
         android:id="@+id/aboutBigTextView"
         android:textColor="#ffffff"
         android:paddingTop="5dp"
 
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/aboutSmallTextView"
         android:layout_below="@+id/aboutHeader" />
 
 
