@@ -28,6 +28,10 @@ import android.widget.VideoView;
 
 public class MainActivity extends ActionBarActivity {
 
+        private static final String path ="http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
+    private static VideoView video;
+    private static MediaController ctlr;
+
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
@@ -168,16 +172,27 @@ public class MainActivity extends ActionBarActivity {
          public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                                   Bundle savedInstanceState) {
             View rootView;
-            if (getArguments().getInt(ARG_SECTION_NUMBER)==1)
+            if (getArguments().getInt(ARG_SECTION_NUMBER)==1){
                 rootView = inflater.inflate(R.layout.homepage, container, false);
 
+             video = (VideoView) rootView.findViewById(R.id.videoHelp);
+            // video.setVideoPath(path);
 
-             else if (getArguments().getInt(ARG_SECTION_NUMBER)==2)
+             ctlr = new MediaController(inflater.getContext());
+             //ctlr.setMediaPlayer(video);
+                ctlr.setAnchorView(video);
+            Uri u = Uri.parse(path);
+             video.setMediaController(ctlr);
+                video.setVideoURI(u);
+             video.start();
+
+
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER)==2){
                  rootView = inflater.inflate(R.layout.mainpage, container, false);
 
-             else
+            } else{
 
-                rootView = inflater.inflate(R.layout.about, container, false);
+                rootView = inflater.inflate(R.layout.about, container, false);}
 
 
              return rootView;
