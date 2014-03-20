@@ -20,7 +20,7 @@ import java.util.ArrayList;
  */
 public class LivingOrg extends Activity {
 
-    private static final String path ="http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
+    private static final String path = "http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
     private VideoView video;
     private MediaController ctlr;
 
@@ -29,9 +29,6 @@ public class LivingOrg extends Activity {
 
     protected void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.living_org_info);
-
-
-
 
 
 //        mVideoURL = getIntent().getStringExtra("EXT_URL");
@@ -48,7 +45,7 @@ public class LivingOrg extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.living_org_info);
 
-        ExpandableListView listView = (ExpandableListView)findViewById(R.id.LivingExpandable);
+        ExpandableListView listView = (ExpandableListView) findViewById(R.id.LivingExpandable);
 
         ArrayList<ArrayList<String>> groups = new ArrayList<ArrayList<String>>();
 
@@ -76,9 +73,8 @@ public class LivingOrg extends Activity {
         video.start();
 
 
-
     }
 
 
-    }
+}
 

@@ -10,6 +10,7 @@ import android.app.*;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.ViewGroup.LayoutParams;
+
 /**
  * Created by valerijszemlanikins on 14.03.14.
  */

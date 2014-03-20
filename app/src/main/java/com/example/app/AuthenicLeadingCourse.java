@@ -18,9 +18,7 @@ import java.util.Random;
 public class AuthenicLeadingCourse extends Activity {
 
 
-    
-    String moreInf  = "http://www.chrisevatt.com/services/authentic-leading";
-
+    String moreInf = "http://www.chrisevatt.com/services/authentic-leading";
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,15 +27,11 @@ public class AuthenicLeadingCourse extends Activity {
         setContentView(R.layout.authentic_leading_course);
 
 
-        ExpandableListView listView = (ExpandableListView)findViewById(R.id.expandableAutLeading);
+        ExpandableListView listView = (ExpandableListView) findViewById(R.id.expandableAutLeading);
 
         ArrayList<ArrayList<String>> groups = new ArrayList<ArrayList<String>>();
-        // ArrayList<String> children1 = new ArrayList<String>();
         ArrayList<String> children2 = new ArrayList<String>();
-        //children1.add("Training modules:");
-//        children1.add("Child_2");
-        // groups.add(children1);
-        //if (lang=="eng"){
+
         children2.add(getString(R.string.authenicLeadingCourse1));
         children2.add(getString(R.string.authenicLeadingCourse2));
         children2.add(getString(R.string.authenicLeadingCourse3));
@@ -45,25 +39,20 @@ public class AuthenicLeadingCourse extends Activity {
         children2.add(getString(R.string.authenicLeadingCourse5));
         children2.add(getString(R.string.authenicLeadingCourse6));
         children2.add(getString(R.string.authenicLeadingCourse7));
-//        children2.add(name);
-
-//        children2.add("Child_2");
-//        children2.add("Child_3");
         groups.add(children2);
         //Создаем адаптер и передаем context и список с данными
         ExpListAdapter adapter = new ExpListAdapter(getApplicationContext(), groups);
         listView.setAdapter(adapter);
 
 
-
         listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-                int findLayout =  20+childPosition;
+                int findLayout = 20 + childPosition;
 
                 Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
 //                i.putExtra("NameOfPage",numberpage);
-                i.putExtra("NameOfPage",findLayout);
+                i.putExtra("NameOfPage", findLayout);
 
                 startActivity(i);
 
@@ -80,12 +69,12 @@ public class AuthenicLeadingCourse extends Activity {
 
 
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf));
-               startActivity(browserIntent);
+                startActivity(browserIntent);
 
             }
 
 
-            });
+        });
 
 
     }
