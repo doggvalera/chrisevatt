@@ -28,7 +28,7 @@ import android.widget.VideoView;
 
 public class MainActivity extends ActionBarActivity {
 
-        private static final String path ="http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
+    private static final String path = "http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
     private static VideoView video;
     private static MediaController ctlr;
 
@@ -56,9 +56,6 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
 
-
-
-
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -69,20 +66,11 @@ public class MainActivity extends ActionBarActivity {
         mViewPager.setCurrentItem(1);
 
 
-
-
-
-
-
     }
-
-
-
 
 
     @Override
     public boolean
-
 
 
     onCreateOptionsMenu(Menu menu) {
@@ -103,7 +91,6 @@ public class MainActivity extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
 
 
     /**
@@ -168,84 +155,77 @@ public class MainActivity extends ActionBarActivity {
         public PlaceholderFragment() {
         }
 
-         @Override
-         public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                                  Bundle savedInstanceState) {
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
             View rootView;
-            if (getArguments().getInt(ARG_SECTION_NUMBER)==1){
+            if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
                 rootView = inflater.inflate(R.layout.homepage, container, false);
 
-             video = (VideoView) rootView.findViewById(R.id.videoHelp);
-            // video.setVideoPath(path);
+                video = (VideoView) rootView.findViewById(R.id.videoHelp);
+                // video.setVideoPath(path);
 
-             ctlr = new MediaController(inflater.getContext());
-             //ctlr.setMediaPlayer(video);
+                ctlr = new MediaController(inflater.getContext());
+                //ctlr.setMediaPlayer(video);
                 ctlr.setAnchorView(video);
-            Uri u = Uri.parse(path);
-             video.setMediaController(ctlr);
+                Uri u = Uri.parse(path);
+                video.setMediaController(ctlr);
                 video.setVideoURI(u);
-             video.start();
+                video.start();
 
 
-            } else if (getArguments().getInt(ARG_SECTION_NUMBER)==2){
-                 rootView = inflater.inflate(R.layout.mainpage, container, false);
+            } else if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
+                rootView = inflater.inflate(R.layout.mainpage, container, false);
 
-            } else{
+            } else {
 
-                rootView = inflater.inflate(R.layout.about, container, false);}
-
-
-             return rootView;
-
+                rootView = inflater.inflate(R.layout.about, container, false);
             }
 
 
+            return rootView;
 
         }
-    public void startCourse1 (View view1) {
+
+
+    }
+
+    public void startCourse1(View view1) {
 
         startActivity(new Intent(this, Informations.class));
 
 
     }
-    public void startCourse2 (View view2) {
+
+    public void startCourse2(View view2) {
 
         startActivity(new Intent(this, FamilyCourseClass.class));
 
 
     }
-    public void startCourse3 (View view3) {
+
+    public void startCourse3(View view3) {
 
         startActivity(new Intent(this, StartPlus.class));
 
 
     }
-    public void startCourse4 (View view4) {
 
-       startActivity(new Intent(this, AuthenicLeadingCourse.class));
+    public void startCourse4(View view4) {
+
+        startActivity(new Intent(this, AuthenicLeadingCourse.class));
 //        startActivity(new Intent(this, ContactForm.class));
-
-
-
 
 
     }
 
 
-
-    public void startCourse5 (View view4) {
+    public void startCourse5(View view4) {
 
         startActivity(new Intent(this, ContactForm.class));
 
 
-
-
     }
-
-
-
-
-
 
 
 }

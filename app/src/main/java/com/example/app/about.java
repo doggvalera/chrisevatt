@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 
-public class about extends Activity {
+public class About extends Activity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

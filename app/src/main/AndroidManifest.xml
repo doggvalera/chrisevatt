@@ -21,9 +21,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".about" />
+        <activity android:name=".About" />
 
-        <activity android:name=".courseInformation" />
+        <activity android:name=".CourseInformation" />
 
         <activity android:name="Informations"/>
         <activity android:name=".FamilyCourseClass"/>
