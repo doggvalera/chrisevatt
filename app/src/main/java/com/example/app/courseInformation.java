@@ -7,7 +7,7 @@ import android.view.View;
 /**
  * Created by Laisu on 14.3.2014.
  */
-public class CourseInformation extends Activity {
+public class courseInformation extends Activity {
 
 
     @Override
