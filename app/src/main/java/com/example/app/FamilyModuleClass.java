@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
 import android.widget.ExpandableListView;
 import android.widget.MediaController;
 import android.widget.Toast;
@@ -27,7 +28,7 @@ public class FamilyModuleClass extends Activity implements
     int numberpage = 1;
 
     protected void onCreate(Bundle savedInstanceState) {
-
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.family_business_info);
 
 

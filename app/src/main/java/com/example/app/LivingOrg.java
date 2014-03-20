@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.widget.ExpandableListAdapter;
@@ -33,7 +34,7 @@ public class LivingOrg extends Activity implements
     int numberpage = 1;
 
     protected void onCreate(Bundle savedInstanceState) {
-
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.living_org_info);
 //        mVideoURL = getIntent().getStringExtra("EXT_URL");
 //        Log.i("VIDEO URL", " " + mVideoURL);
