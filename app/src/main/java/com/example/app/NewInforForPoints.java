@@ -34,8 +34,9 @@ public class NewInforForPoints extends Activity {
 
         if (vasa == 0) {
             TextView textView1 = (TextView) findViewById(R.id.textView);
-            textView1.setText("1");
             textView1.setText(getString(R.string.thelivingorg));
+            ImageView imageView = (ImageView) findViewById(R.id.imageView);
+            imageView.setImageResource(R.drawable.familyfirst);
 
         } else if (vasa == 1) {
             TextView textView1 = (TextView) findViewById(R.id.textView);
