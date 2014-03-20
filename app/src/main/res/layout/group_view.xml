@@ -6,10 +6,8 @@
     android:weightSum="1">
     <TextView
 
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:gravity="center"
-
-
         android:id="@+id/textGroup"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
