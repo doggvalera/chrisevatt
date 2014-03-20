@@ -6,6 +6,7 @@ package com.example.app;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;

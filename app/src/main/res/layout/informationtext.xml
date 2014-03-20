@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="More information"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
          android:id="@+id/livingOrgMore"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -38,7 +38,7 @@
         android:layout_above="@+id/livingOrgMore"/>
 
     <Button
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:layout_marginTop="2dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"

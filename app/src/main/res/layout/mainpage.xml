@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:text="The living organization"
                 android:drawableLeft="@drawable/course_bookce_50px"
-                android:textColor="#ffffff"
+                android:textColor="#000000"
                 android:id="@+id/btnLivOrg"
                 android:layout_gravity="center_horizontal"
 
@@ -52,7 +52,7 @@
                 android:layout_width="210dp"
                 android:layout_height="wrap_content"
                 android:text="StartupPLUS"
-                android:textColor="#ffffff"
+                android:textColor="#000000"
                 android:id="@+id/button2"
                 android:drawableLeft="@drawable/course_startup_50px"
 
@@ -72,7 +72,7 @@
                 android:layout_width="210dp"
                 android:layout_height="wrap_content"
                 android:text="Authentic Leading"
-                android:textColor="#ffffff"
+                android:textColor="#000000"
                 android:id="@+id/button3"
 
                 android:layout_gravity="center_horizontal"
@@ -93,7 +93,7 @@
                 android:layout_width="210dp"
                 android:layout_height="wrap_content"
                 android:text="Family Businesses Succession"
-                android:textColor="#ffffff"
+                android:textColor="#000000"
                 android:id="@+id/button4"
 
                 android:drawableLeft="@drawable/course_familybs_50px"
@@ -113,7 +113,7 @@
         android:text="Available courses:"
         android:id="@+id/textView"
         android:textSize="30sp"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textStyle="bold"
         android:clickable="false"
         android:layout_below="@+id/imageView"
@@ -121,7 +121,7 @@
 
     <Button
         android:drawableRight="@drawable/finalarrow_r"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:background="@android:color/transparent"
         android:layout_marginBottom="2dp"
         android:layout_marginLeft="5dp"
@@ -136,7 +136,7 @@
 
     <Button
         android:drawableLeft="@drawable/finalarrow_l"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:background="@android:color/transparent"
 
         android:layout_marginBottom="2dp"
