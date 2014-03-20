@@ -6,7 +6,7 @@ android:layout_height="match_parent"
 
 
 tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
-    android:background="@color/backGroundOlive">
+    android:background="@color/backGroundBlue">
 
 
 
@@ -26,7 +26,7 @@ tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:layout_alignParentEnd="true"
     android:layout_alignLeft="@+id/courseInfoAutLeading"
     android:layout_alignStart="@+id/courseInfoAutLeading"
-    style="@style/ButtonThemeOlive"/>
+    style="@style/ButtonThemeBlue"/>
 
 <Button
     android:layout_marginBottom="2dp"
@@ -40,7 +40,7 @@ tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:layout_alignTop="@+id/expandableAutLeading"
     android:layout_alignParentRight="true"
     android:layout_alignParentEnd="true"
-    style="@style/ButtonThemeOlive"/>
+    style="@style/ButtonThemeBlue"/>
 
 <ExpandableListView
     android:layout_marginBottom="2dp"

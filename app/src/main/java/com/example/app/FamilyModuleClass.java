@@ -44,6 +44,7 @@ public class FamilyModuleClass extends Activity implements
         ctlr.setMediaPlayer(video);
         video.setMediaController(ctlr);
         //video.start();
+
         setGroupData();
         setChildGroupData();
 

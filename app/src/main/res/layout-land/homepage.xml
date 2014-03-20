@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#ffff"
+        android:textColor="#000000"
         android:text="Welcome to use Chris Evatt - Key To Success Application \n\n\n\n\n\n If you have any questions, comments or feedback do not hesitate to contact via contact form"
         android:id="@+id/textView"
         android:layout_alignTop="@+id/videoHelp"
