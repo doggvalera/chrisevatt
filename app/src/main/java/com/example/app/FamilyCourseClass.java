@@ -16,15 +16,6 @@ import java.util.ArrayList;
  */
 public class FamilyCourseClass extends Activity {
 
-    //    String name1 = "1.Developing a living organisation model";
-//    String name2 = "2.Developing collaborative relationships with all stakeholders";
-//    String name3 = "3.Collaborative relationship skills:";
-//    String name4 = "4.Creating a collaborative and empowering culture:";
-//    String name5 = "5.Leading the living organisation";
-//    String name6 = "6.Managing the living organisation";
-//    String name7 = "7.Measures:";
-//    String name8 = "8.Developing a living organisation model";
-//    String name9 = "9.Developing a living organisation model";
     String moreInf3  = "http://www.chrisevatt.com/services/family-businesses-succession";
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
