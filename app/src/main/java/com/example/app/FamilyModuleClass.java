@@ -17,14 +17,14 @@ import java.util.ArrayList;
  * Created by VIO on 3/20/14.
  */
 public class FamilyModuleClass extends Activity implements
-        ExpandableListView.OnChildClickListener {
+    ExpandableListView.OnChildClickListener {
 
-    private static final String path ="http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
-    private VideoView video;
-    private MediaController ctlr;
+        private static final String path ="http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
+        private VideoView video;
+        private MediaController ctlr;
 
 
-    int numberpage = 1;
+        int numberpage = 1;
 
     protected void onCreate(Bundle savedInstanceState) {
 

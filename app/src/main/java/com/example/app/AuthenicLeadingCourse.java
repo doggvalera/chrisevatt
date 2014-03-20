@@ -78,4 +78,8 @@ public class AuthenicLeadingCourse extends Activity {
 
 
     }
+
+    public void startModule3 (View view5) {
+        startActivity(new Intent(this, AuthLeadModule.class));
+    }
 }

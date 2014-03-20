@@ -8,7 +8,6 @@
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:background="@color/backGroundOlive">
 
-
     <ExpandableListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,7 +18,6 @@
         android:layout_marginTop="280dp"
         android:layout_marginRight="7dp"
         android:layout_marginLeft="7dp"/>
-
 
     <VideoView
         android:layout_width="wrap_content"

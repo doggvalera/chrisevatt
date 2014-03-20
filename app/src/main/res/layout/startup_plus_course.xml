@@ -8,10 +8,6 @@
     tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:background="@color/backGroundLilac">
 
-
-
-
-
     <Button
         android:layout_marginTop="2dp"
         android:layout_marginLeft="5dp"
@@ -44,6 +40,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/expandableStartPlus"
         android:layout_alignEnd="@+id/expandableStartPlus"
+        android:onClick="startModule3"
         style="@style/ButtonThemeLilac"/>
 
     <ExpandableListView

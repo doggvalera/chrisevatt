@@ -8,14 +8,6 @@ android:layout_height="match_parent"
 tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:background="@color/backGroundOlive">
 
-
-
-
-
-
-
-
-
 <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -48,6 +40,7 @@ tools:context="android.com.example.app.MainActivity$PlaceholderFragment"
     android:layout_marginBottom="2dp"
     android:layout_marginRight="5dp"
     android:layout_marginLeft="5dp"
+    android:onClick="startModule3"
     style="@style/ButtonThemeOlive"/>
 
 <ExpandableListView
