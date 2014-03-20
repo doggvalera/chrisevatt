@@ -1,12 +1,18 @@
 package com.example.app;
 
+import   android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.ExpandableListView;
 import android.widget.MediaController;
 import android.widget.Toast;
@@ -18,14 +24,15 @@ import java.util.ArrayList;
  * Created by VIO on 3/20/14.
  */
 public class FamilyModuleClass extends Activity implements
-    ExpandableListView.OnChildClickListener {
+        ExpandableListView.OnChildClickListener {
 
-        private static final String path ="http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
-        private VideoView video;
-        private MediaController ctlr;
+        String videoURL = "http://www.youtube.com/embed/bgaLeCaiy_Y";
+    WebView mWebView = null;
 
 
-        int numberpage = 1;
+
+
+    int numberpage = 1;
 
     protected void onCreate(Bundle savedInstanceState) {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -38,13 +45,7 @@ public class FamilyModuleClass extends Activity implements
         expandbleLis.setGroupIndicator(null);
         expandbleLis.setClickable(true);
 
-        video = (VideoView) findViewById(R.id.videoFamilyInfo);
-        video.setVideoPath(path);
 
-        ctlr = new MediaController(this);
-        ctlr.setMediaPlayer(video);
-        video.setMediaController(ctlr);
-        //video.start();
 
         setGroupData();
         setChildGroupData();
@@ -56,7 +57,43 @@ public class FamilyModuleClass extends Activity implements
                         this);
         expandbleLis.setAdapter(mNewAdapter);
         expandbleLis.setOnChildClickListener(this);
+
+
+
+
+        initwebView();
     }
+
+    @TargetApi(Build.VERSION_CODES.FROYO)
+    private void initwebView() {
+        mWebView = (WebView) findViewById(R.id.webView);
+
+        /** unfortunately, we have to check sdk version ***/
+        if (Build.VERSION.SDK_INT < 8) {
+            mWebView.getSettings().setPluginState(WebSettings.PluginState.OFF);
+        } else {
+            mWebView.getSettings().setPluginState(WebSettings.PluginState.ON);
+        }
+        mWebView.getSettings().setJavaScriptEnabled(true);
+        mWebView.setWebChromeClient(new MyChromeClient());
+        mWebView.loadUrl(videoURL);
+    }
+
+    class MyChromeClient extends WebChromeClient {
+
+        @Override
+        public void onShowCustomView(View view, CustomViewCallback callback) {
+            /** Remove super function, it stucks to play youtube video if you click fullscreen icon **/
+            // super.onShowCustomView(view, callback);
+            Intent intent = new Intent(FamilyModuleClass.this, LandVideoAct.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            intent.putExtra("video", videoURL);
+            startActivity(intent);
+
+        }
+
+    }
+
     public void setGroupData() {
         groupItem.add("A family business");
         groupItem.add("Purpose");

@@ -14,25 +14,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/FamilyExpandable"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
 
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="300dp"
-        android:layout_marginLeft="7dp"
-        android:layout_marginBottom="5dp"/>
-
-
-    <VideoView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/videoFamilyInfo"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginRight="7dp"
-        android:layout_marginLeft="300dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignEnd="@+id/textView1"
+        android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true" />
 
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <WebView
+        android:layout_marginRight="5dp"
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/FamilyExpandable"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>

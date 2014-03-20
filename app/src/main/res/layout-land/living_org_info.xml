@@ -14,25 +14,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/LivingExpandable"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:layout_below="@+id/vide"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="300dp"
         android:layout_marginLeft="7dp"
-        android:layout_marginBottom="5dp"/>
-
-
-    <VideoView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/videoLivingInfo"
-        android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/textViewLivInf" />
+
+    <TextView
+        android:id="@+id/textViewLivInf"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/LivingExpandable"
+        android:layout_centerHorizontal="true" />
+
+
+    <WebView
+        android:id="@+id/webViewLiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
         android:layout_marginRight="7dp"
-        android:layout_marginLeft="300dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="2dp"
+
+
+        android:layout_alignLeft="@+id/textViewLivInf"
+        android:layout_alignStart="@+id/textViewLivInf"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

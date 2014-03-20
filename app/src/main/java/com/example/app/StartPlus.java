@@ -89,8 +89,10 @@ public class StartPlus extends Activity {
 
     }
 
+    /*
     public void  startModule3 (View view3) {
 
         startActivity(new Intent(this, StartUpModuleInfo.class));
     }
+    */
 }

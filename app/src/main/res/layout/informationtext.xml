@@ -51,7 +51,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="startCourseInfo1"
+        android:onClick="startModule3"
         style="@style/ButtonThemeBlue"/>
         
 

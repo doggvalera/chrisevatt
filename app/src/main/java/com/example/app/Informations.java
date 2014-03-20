@@ -101,7 +101,7 @@ public class Informations extends Activity {
     }
 
     public void startModule3 (View view5) {
-        startActivity(new Intent(this, FamilyModuleClass.class));
+        startActivity(new Intent(this, LivingOrg.class));
     }
 
 }

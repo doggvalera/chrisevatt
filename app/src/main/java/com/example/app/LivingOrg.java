@@ -1,11 +1,13 @@
 package com.example.app;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.ExpandableListActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,6 +15,7 @@ import android.view.View;
 import android.view.Window;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.MediaController;
@@ -26,9 +29,10 @@ import java.util.ArrayList;
 public class LivingOrg extends Activity implements
         ExpandableListView.OnChildClickListener {
 
-    private static final String path ="http://www.boisestatefootball.com/sites/default/files/videos/original/01%20-%20coach%20pete%20bio_4.mp4";
-    private VideoView video;
-    private MediaController ctlr;
+    String videoURL1 = "http://www.youtube.com/embed/bgaLeCaiy_Y";
+    WebView mWebView1 = null;
+
+
 
 
     int numberpage = 1;
@@ -36,15 +40,9 @@ public class LivingOrg extends Activity implements
     protected void onCreate(Bundle savedInstanceState) {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.living_org_info);
-//        mVideoURL = getIntent().getStringExtra("EXT_URL");
-//        Log.i("VIDEO URL", " " + mVideoURL);
-
-        MediaController mc = new MediaController(this);
-
-        VideoView mWebView = (VideoView) findViewById(R.id.videoLivingInfo);
 
 
-        mWebView.setVideoURI(Uri.parse("https://www.youtube.com/watch?v=bgaLeCaiy_Y&feature=youtube_gdata"));
+
 
 
         super.onCreate(savedInstanceState);
@@ -53,13 +51,7 @@ public class LivingOrg extends Activity implements
         expandbleLis.setGroupIndicator(null);
         expandbleLis.setClickable(true);
 
-        video = (VideoView) findViewById(R.id.videoLivingInfo);
-        video.setVideoPath(path);
 
-        ctlr = new MediaController(this);
-        ctlr.setMediaPlayer(video);
-        video.setMediaController(ctlr);
-        //video.start();
         setGroupData();
         setChildGroupData();
 
@@ -70,7 +62,51 @@ public class LivingOrg extends Activity implements
                         this);
         expandbleLis.setAdapter(mNewAdapter);
         expandbleLis.setOnChildClickListener(this);
+
+
+
+
+
+
+        initwebView();
     }
+
+    @TargetApi(Build.VERSION_CODES.FROYO)
+    private void initwebView() {
+        mWebView1 = (WebView) findViewById(R.id.webViewLiv);
+
+        /** unfortunately, we have to check sdk version ***/
+        if (Build.VERSION.SDK_INT < 8) {
+            mWebView1.getSettings().setPluginState(WebSettings.PluginState.OFF);
+        } else {
+            mWebView1.getSettings().setPluginState(WebSettings.PluginState.ON);
+        }
+        mWebView1.getSettings().setJavaScriptEnabled(true);
+        mWebView1.setWebChromeClient(new MyChromeClient());
+        mWebView1.loadUrl(videoURL1);
+    }
+
+    class MyChromeClient extends WebChromeClient {
+
+        @Override
+        public void onShowCustomView(View view, CustomViewCallback callback) {
+            /** Remove super function, it stucks to play youtube video if you click fullscreen icon **/
+            // super.onShowCustomView(view, callback);
+            Intent intent = new Intent(LivingOrg.this, LandVideoAct.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            intent.putExtra("video", videoURL1);
+            startActivity(intent);
+
+        }
+
+    }
+
+
+
+
+
+
+
     public void setGroupData() {
         groupItem.add("The Living Organisation");
         groupItem.add("Purpose");

@@ -6,7 +6,7 @@
 
     <application
 
-
+        android:hardwareAccelerated="true"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
@@ -28,13 +28,13 @@
         <activity android:name="Informations"/>
         <activity android:name=".StartPlus"/>
         <activity android:name=".AuthenicLeadingCourse"/>
-        <activity android:name=".AuthLeadModule"/>
+
         <activity android:name=".NewInforForPoints"/>
         <activity android:name=".LivingOrg"/>
         <activity android:name=".ContactForm"/>
         <activity android:name=".FamilyCourseClass"/>
         <activity android:name=".FamilyModuleClass"/>
-        <activity android:name=".StartUpModuleInfo"/>
+
     </application>
 
 </manifest>
