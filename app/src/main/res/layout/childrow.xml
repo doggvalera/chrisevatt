@@ -15,6 +15,15 @@
         android:layout_height="150dp"
         android:gravity="center_vertical" >
 
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:overScrollMode="always"
+            android:isScrollContainer="true"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical">
         <TextView
 
             android:id="@+id/textView1"
@@ -24,7 +33,9 @@
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff"
+            android:scrollbars = "vertical"/>
+        </ScrollView>
     </LinearLayout>
 
     <View
