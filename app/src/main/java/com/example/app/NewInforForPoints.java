@@ -34,8 +34,9 @@ public class NewInforForPoints extends Activity {
 
         if (vasa == 0) {
             TextView textView1 = (TextView) findViewById(R.id.textView);
-            textView1.setText("1");
             textView1.setText(getString(R.string.thelivingorg));
+            ImageView imageView = (ImageView) findViewById(R.id.imageView);
+            imageView.setImageResource(R.drawable.familyfirst);
 
         } else if (vasa == 1) {
             TextView textView1 = (TextView) findViewById(R.id.textView);
@@ -203,29 +204,54 @@ public class NewInforForPoints extends Activity {
 
         } else if (vasa == 30) {
             TextView textView1 = (TextView) findViewById(R.id.textView);
-            textView1.setText(getString(R.string.thelivingorg7));
+            textView1.setText(getString(R.string.thelivingorg1));
             ImageView imageView = (ImageView) findViewById(R.id.imageView);
             imageView.setImageResource(R.drawable.sales_people);
 
         } else if (vasa == 31) {
             TextView textView1 = (TextView) findViewById(R.id.textView);
-            textView1.setText(getString(R.string.thelivingorg7));
+            textView1.setText(getString(R.string.thelivingorg2));
             ImageView imageView = (ImageView) findViewById(R.id.imageView);
             imageView.setImageResource(R.drawable.sales_people);
 
         } else if (vasa == 32) {
             TextView textView1 = (TextView) findViewById(R.id.textView);
-            textView1.setText(getString(R.string.thelivingorg7));
+            textView1.setText(getString(R.string.thelivingorg3));
             ImageView imageView = (ImageView) findViewById(R.id.imageView);
             imageView.setImageResource(R.drawable.sales_people);
 
         } else if (vasa == 33) {
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg3));
+            ImageView imageView = (ImageView) findViewById(R.id.imageView);
+            imageView.setImageResource(R.drawable.sales_people);
+
+        }else if (vasa == 34) {
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg4));
+            ImageView imageView = (ImageView) findViewById(R.id.imageView);
+            imageView.setImageResource(R.drawable.sales_people);
+
+        }else if (vasa == 35) {
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg5));
+            ImageView imageView = (ImageView) findViewById(R.id.imageView);
+            imageView.setImageResource(R.drawable.sales_people);
+
+        }else if (vasa == 36) {
+            TextView textView1 = (TextView) findViewById(R.id.textView);
+            textView1.setText(getString(R.string.thelivingorg6));
+            ImageView imageView = (ImageView) findViewById(R.id.imageView);
+            imageView.setImageResource(R.drawable.sales_people);
+
+        }else if (vasa == 37) {
             TextView textView1 = (TextView) findViewById(R.id.textView);
             textView1.setText(getString(R.string.thelivingorg7));
             ImageView imageView = (ImageView) findViewById(R.id.imageView);
             imageView.setImageResource(R.drawable.sales_people);
 
         }
+
         {
 
         }
