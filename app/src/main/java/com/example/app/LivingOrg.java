@@ -28,6 +28,7 @@ public class LivingOrg extends Activity {
     int numberpage = 1;
 
     protected void onCreate(Bundle savedInstanceState) {
+        setContentView(R.layout.living_org_info);
 
 
 

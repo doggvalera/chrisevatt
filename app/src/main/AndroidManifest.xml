@@ -32,6 +32,7 @@
         <activity android:name=".NewInforForPoints"/>
         <activity android:name=".LivingOrg"/>
         <activity android:name=".ContactForm"/>
+      
     </application>
 
 </manifest>
