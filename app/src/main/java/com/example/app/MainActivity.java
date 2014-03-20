@@ -183,8 +183,12 @@ public class MainActivity extends ActionBarActivity {
                 ctlr.setAnchorView(video);
             Uri u = Uri.parse(path);
              video.setMediaController(ctlr);
+
                 video.setVideoURI(u);
-             video.start();
+                video.seekTo(1000);
+
+
+
 
 
             } else if (getArguments().getInt(ARG_SECTION_NUMBER)==2){
@@ -223,7 +227,7 @@ public class MainActivity extends ActionBarActivity {
     public void startCourse4 (View view4) {
 
        startActivity(new Intent(this, AuthenicLeadingCourse.class));
-//        startActivity(new Intent(this, ContactForm.class));
+//
 
 
 

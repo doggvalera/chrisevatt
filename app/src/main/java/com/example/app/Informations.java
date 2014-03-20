@@ -21,15 +21,16 @@ public class Informations extends Activity {
     int numberpage = 1;
     private Context context;
 
-    String moreInf1  = "http://www.chrisevatt.com/services/the-living-organisation";
+    String moreInf1 = "http://www.chrisevatt.com/services/the-living-organisation";
+
     protected void onCreate(Bundle savedInstanceState) {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.informationtext);
 
-      //  final String vasa="1";
-        ExpandableListView listView = (ExpandableListView)findViewById(R.id.expandableListView);
+        //  final String vasa="1";
+        ExpandableListView listView = (ExpandableListView) findViewById(R.id.expandableListView);
 
         ArrayList<ArrayList<String>> groups = new ArrayList<ArrayList<String>>();
 //        ArrayList<String> children1 = new ArrayList<String>();
@@ -59,17 +60,14 @@ public class Informations extends Activity {
         adapter.setmContext(getBaseContext());
 
 
-
-
-
         listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-                int findLayout =  30+childPosition;
+                int findLayout = 30 + childPosition;
 
                 Intent i = new Intent(getBaseContext(), NewInforForPoints.class);
 //                i.putExtra("NameOfPage",numberpage);
-                i.putExtra("NameOfPage",findLayout);
+                i.putExtra("NameOfPage", findLayout);
 
                 startActivity(i);
 
@@ -86,14 +84,13 @@ public class Informations extends Activity {
 //        });
 
 
-
         btnMoreInf1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
 
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(moreInf1));
-               startActivity(browserIntent);
+                startActivity(browserIntent);
 
             }
 
@@ -101,10 +98,9 @@ public class Informations extends Activity {
         });
 
 
-
     }
 
-    public void startCourseInfo1 (View view5) {
+    public void startCourseInfo1(View view5) {
 
         startActivity(new Intent(this, LivingOrg.class));
 
